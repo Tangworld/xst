@@ -11,7 +11,7 @@ public class IndexController {
     @RequestMapping(value = "/index", method = RequestMethod.GET)
     public String test() {
 
-        return "v2.2front/index";
+        return "v3.6admin/index";
     }
 
 }

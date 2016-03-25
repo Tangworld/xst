@@ -1,44 +1,44 @@
 <!DOCTYPE html>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
-<%@ taglib prefix="s" uri="/struts-tags" %>
 <%@ page isELIgnored="false" %>
+<%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
 <html lang="en">
 <head>
     <title>MagicCloud</title>
     <meta charset="utf-8">
     <meta name="format-detection" content="telephone=no"/>
     <!--手机不允许缩放-->
-    <link rel="icon" href="images/favicon.ico">
+    <link rel="icon" href="/views/v3.6admin/images/favicon.ico">
     <!--<link rel="icon" href="images/cloud.ico">-->
     <!--找不到这个可能是网站站点的图标-->
-    <link rel="shortcut icon" href="images/cloud.ico"/>
+    <link rel="shortcut icon" href="/views/v3.6admin/images/cloud.ico"/>
 
-    <link rel="stylesheet" href="css/animation.css">
-    <link rel="stylesheet" href="css/camera.css">
-    <link rel="stylesheet" href="css/contact-form.css">
-    <link rel="stylesheet" href="css/touchTouch.css">
-    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="/views/v3.6admin/css/animation.css">
+    <link rel="stylesheet" href="/views/v3.6admin/css/camera.css">
+    <link rel="stylesheet" href="/views/v3.6admin/css/contact-form.css">
+    <link rel="stylesheet" href="/views/v3.6admin/css/touchTouch.css">
+    <link rel="stylesheet" href="/views/v3.6admin/css/style.css">
 
-    <script src="js/jquery.js"></script>
-    <script src="js/jquery-migrate-1.1.1.js"></script>
+    <script src="/views/v3.6admin/js/jquery.js"></script>
+    <script src="/views/v3.6admin/js/jquery-migrate-1.1.1.js"></script>
     <!--让你在原来代码上升级jquery 不用修改代码用的-->
-    <script src="js/jquery.easing.1.3.js"></script>
-    <script src="js/script.js"></script>
-    <script src="js/jquery.ui.totop.js"></script>
+    <script src="/views/v3.6admin/js/jquery.easing.1.3.js"></script>
+    <script src="/views/v3.6admin/js/script.js"></script>
+    <script src="/views/v3.6admin/js/jquery.ui.totop.js"></script>
     <!--回到顶部的插件-->
-    <script src="js/touchTouch.jquery.js"></script>
-    <script src="js/isotope.pkgd.js"></script>
-    <script src="js/TMForm.js"></script>
-    <script src="js/modal.js"></script>
-    <script src="js/camera.js"></script>
+    <script src="/views/v3.6admin/js/touchTouch.jquery.js"></script>
+    <script src="/views/v3.6admin/js/isotope.pkgd.js"></script>
+    <script src="/views/v3.6admin/js/TMForm.js"></script>
+    <script src="/views/v3.6admin/js/modal.js"></script>
+    <script src="/views/v3.6admin/js/camera.js"></script>
     <!--[if (gt IE 9)|!(IE)]><!-->
-    <script src="js/jquery.mobile.customized.min.js"></script>
+    <script src="/views/v3.6admin/js/jquery.mobile.customized.min.js"></script>
     <!--？？手机相关吧-->
 
     <!--bootstrap与登录框部分部分-->
-    <link rel="stylesheet" href="./css/bootstrap.css"/>
+    <link rel="stylesheet" href="/views/v3.6admin/css/bootstrap.css"/>
     <!--这里有些奇怪？min与大的区别只有数据量的区别-->
-    <link rel="stylesheet" href="./css/loging.css"/>
+    <link rel="stylesheet" href="/views/v3.6admin/css/loging.css"/>
     <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!-- bootstrap end-->
 
@@ -49,15 +49,15 @@
 
     <!--city城市控件-->
     <!-- -->
-    <link rel="stylesheet" href="css/city/cityStyle.css"/>
-    <script type="text/javascript" src="js/city/cityScript.js"></script>
-    <script type="text/javascript" src="js/city/lazyload-min.js"></script>
+    <link rel="stylesheet" href="/views/v3.6admin/css/city/cityStyle.css"/>
+    <script type="text/javascript" src="/views/v3.6admin/js/city/cityScript.js"></script>
+    <script type="text/javascript" src="/views/v3.6admin/js/city/lazyload-min.js"></script>
     <!-- -->
     <!--city   控件end-->
 
     <!--基本css--START-->
-    <link rel="stylesheet" href="./css/myqd/index.css"/>
-    <link rel="stylesheet" href="./css/myqd/special.css"/>
+    <link rel="stylesheet" href="/views/v3.6admin/css/myqd/index.css"/>
+    <link rel="stylesheet" href="/views/v3.6admin/css/myqd/special.css"/>
     <!--基本css--END-->
 
 
@@ -90,8 +90,8 @@
     </div>
     <![endif]-->
     <!--[if lt IE 9]>
-    <script src="js/html5shiv.js"></script>
-    <link rel="stylesheet" media="screen" href="css/ie.css">
+    <script src="/views/v3.6admin/js/html5shiv.js"></script>
+    <link rel="stylesheet" media="screen" href="/views/v3.6admin/css/ie.css">
     <![endif]-->
 
     <!--<base target="_blank" />-->
@@ -110,13 +110,13 @@
                     <div class="col-md-2">
                         <h1 class="logo_head">
                             <!--<a href="index.jsp">Make Each Day Count</a>-->
-                            <a href="index.jsp">MagicCloud</a>
+                            <a href="index.jsp">MagicCloud${user}${test}</a>
                             <!--<p>Magic Cloud</p>-->
                         </h1>
                     </div>
                     <div class="col-md-6" style="padding-top: 20px">
                         <form class="form-inline" action="result.jsp">
-                            <img src="./images/icon/position.png" alt="" height="35px" width="35px"/>
+                            <img src="/views/v3.6admin/images/icon/position.png" alt="" height="35px" width="35px"/>
                             <lable id="current-city">南京</lable>
                             <div style="display: inline">
                                 <input type="text" class="form-control" placeholder="请输入城市名"
@@ -151,21 +151,21 @@
                     <h1 class="text-center text-primary">登录</h1>
                 </div>
                 <div class="modal-body center-block">
-                    <form action="" class="form center-block">
+                    <form action="${pageContext.request.contextPath}/main/login" class="form center-block" method="post">
                         <div class="input-group">
                             <!--<label for="examInputEmail1">邮箱:</label>-->
                             <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                            <input type="email" class="form-control input-lg" id="examInputEmail1"
+                            <input type="text" class="form-control input-lg" id="examInputEmail1" name="username"
                                    placeholder="请输入您的用户名"/>
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-                            <input type="password" class="form-control input-lg" id="examInputPassword1"
+                            <input type="password" class="form-control input-lg" id="examInputPassword1" name="password"
                                    placeholder="请输入您的密码"/>
                         </div>
 
                         <div class="form-group">
-                            <button class="btn btn-primary btn-lg btn-block">立刻登录</button>
+                            <input type="submit" class="btn btn-primary btn-lg btn-block">立刻登录</input>
                             <span><a href="javascript:void(0)" style="text-align: left">找回密码</a></span>
                             <span><a href="javascript:void(0)" class="pull-right re-register">注册</a></span>
                         </div>
@@ -185,16 +185,16 @@
                     <h1 class="text-center text-primary">注册</h1>
                 </div>
                 <div class="modal-body center-block">
-                    <form action="" class="form center-block">
+                    <form action="${pageContext.request.contextPath}/main/regist" class="form center-block" method="post">
                         <div class="input-group">
                             <!--<label for="examInputEmail1">邮箱:</label>-->
                             <span class="input-group-addon"><span class="glyphicon glyphicon-user"></span></span>
-                            <input type="email" class="form-control input-lg" id="username"
+                            <input type="text" class="form-control input-lg" id="username" name="registusername"
                                    placeholder="请输入您的用户名"/>
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon"><span class="glyphicon glyphicon-lock"></span></span>
-                            <input type="password" class="form-control input-lg" id="password1"
+                            <input type="password" class="form-control input-lg" id="password1" name="registpassword"
                                    placeholder="请输入您的密码"/>
                         </div>
                         <div class="input-group">
@@ -204,12 +204,12 @@
                         </div>
                         <div class="input-group">
                             <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span></span>
-                            <input type="password" class="form-control input-lg" id="password2"
+                            <input type="email" class="form-control input-lg" id="password3" name="registemail"
                                    placeholder="邮箱"/>
                         </div>
 
                         <div class="form-group">
-                            <button class="btn btn-primary btn-lg btn-block">注册</button>
+                            <intput type="submit" class="btn btn-primary btn-lg btn-block">注册</intput>
                             <span><a href="javascript:void(0)" style="text-align: left">找回密码</a></span>
                             <span><a href="javascript:void(0)" class="pull-right re-login">登录</a></span>
                         </div>
@@ -385,21 +385,21 @@
 
 
                 <div id="camera_wrap">
-                    <div data-src="images/img-fj/1.jpg">
+                    <div data-src="/views/v3.6admin/images/img-fj/1.jpg">
                         <div class="caption fadeIn">Yesterday is History</div>
                     </div>
-                    <div data-src="images/img-fj/2.jpg">
+                    <div data-src="/views/v3.6admin/images/img-fj/2.jpg">
                         <div class="caption fadeIn">Tomorrow is a Mystery</div>
                     </div>
-                    <div data-src="images/img-fj/3.jpg">
+                    <div data-src="/views/v3.6admin/images/img-fj/3.jpg">
                         <div class="caption fadeIn">Today is a Gift</div>
                     </div>
-                    <div data-src="images/img-fj/4.jpg">
+                    <div data-src="/views/v3.6admin/images/img-fj/4.jpg">
                         <div class="caption fadeIn">That's Why We Call It The Present<span class="bull"></span> Best
                             <span class="bull"></span> Present
                         </div>
                     </div>
-                    <div data-src="images/img-fj/6.jpg">
+                    <div data-src="/views/v3.6admin/images/img-fj/6.jpg">
                         <div class="caption fadeIn">Let's Go</div>
                     </div>
                 </div>
@@ -433,7 +433,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://vacations.ctrip.com/grouptravel/p1711738s2.html"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/xc-1-01.jpg"
+                                    src="/views/v3.6admin/images/travel/xc-1-01.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -445,7 +445,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://www.tuniu.com/tours/210051470"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/xc-1-02.jpg"
+                                    src="/views/v3.6admin/images/travel/xc-1-02.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -458,7 +458,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://www.tuniu.com/tours/210054040#source=bb"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/xc-1-03.jpg"
+                                    src="/views/v3.6admin/images/travel/xc-1-03.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -472,7 +472,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://www.tuniu.com/tours/210052821"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/xc-1-04.jpg"
+                                    src="/views/v3.6admin/images/travel/xc-1-04.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -484,7 +484,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://www.tuniu.com/tours/210049828#source=bb"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/xc-1-05.jpg"
+                                    src="/views/v3.6admin/images/travel/xc-1-05.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -496,7 +496,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://www.tuniu.com/tours/210053885#source=bb"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/xc-1-06.jpg"
+                                    src="/views/v3.6admin/images/travel/xc-1-06.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -553,7 +553,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://vacations.ctrip.com/morelinetravel/p1843389s2.html"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/north/1.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/north/1.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -566,7 +566,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://vacations.ctrip.com/morelinetravel/p5410478s2.html"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/north/2.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/north/2.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -578,7 +578,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://vacations.ctrip.com/morelinetravel/p2530279s2.html"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/north/3.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/north/3.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -592,7 +592,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/210032546"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/north/4.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/north/4.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -605,7 +605,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210032832"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/north/5.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/north/5.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -617,7 +617,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210050383"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/north/6.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/north/6.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -635,7 +635,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210050902"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/south/1.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/south/1.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -648,7 +648,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/210054364"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/south/2.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/south/2.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -660,7 +660,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210050739"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/south/3.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/south/3.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -674,7 +674,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://vacations.ctrip.com/grouptravel/p5208472s2.html"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/south/4.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/south/4.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -687,7 +687,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://vacations.ctrip.com/grouptravel/p1860232s2.html"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/south/5.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/south/5.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -699,7 +699,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://vacations.ctrip.com/around/p2097511s2.html"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/south/6.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/south/6.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -717,7 +717,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210050347"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/tibet/1.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/tibet/1.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -730,7 +730,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210049146"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/tibet/2.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/tibet/2.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -742,7 +742,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210064419"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/tibet/3.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/tibet/3.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -756,7 +756,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210064235"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/tibet/4.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/tibet/4.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -769,7 +769,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210061144"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/tibet/5.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/tibet/5.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -781,7 +781,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210064443"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/tibet/6.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/tibet/6.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -799,7 +799,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/210050902"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/beach/1.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/beach/1.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -812,7 +812,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/210050563"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/beach/2.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/beach/2.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -824,7 +824,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210032962"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/beach/3.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/beach/3.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -838,7 +838,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/5730729"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/beach/4.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/beach/4.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -851,7 +851,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/210054569"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/beach/5.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/beach/5.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -863,7 +863,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210032700"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/beach/6.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/beach/6.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -881,7 +881,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/210052512"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/ancient/1.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/ancient/1.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -894,7 +894,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/210045837"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/ancient/2.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/ancient/2.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -906,7 +906,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/210045384"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/ancient/3.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/ancient/3.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -920,7 +920,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/210018380"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/ancient/4.png"
+                                                            src="/views/v3.6admin/images/travel/1domestic/ancient/4.png"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -933,7 +933,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/210044487"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/ancient/5.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/ancient/5.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -945,7 +945,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/5777578"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/1domestic/ancient/6.jpg"
+                                                            src="/views/v3.6admin/images/travel/1domestic/ancient/6.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1007,7 +1007,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/33058573" ><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/northeurope/1.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/northeurope/1.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1020,7 +1020,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://vacations.ctrip.com/grouptravel/p5419397s2.html"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/northeurope/2.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/northeurope/2.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1032,7 +1032,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/469482"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/northeurope/3.png"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/northeurope/3.png"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1046,7 +1046,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/497901"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/northeurope/4.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/northeurope/4.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1059,7 +1059,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://vacations.ctrip.com/grouptravel/p64592s2.html"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/northeurope/5.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/northeurope/5.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1071,7 +1071,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/467486"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/northeurope/6.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/northeurope/6.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1089,7 +1089,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/37174975" ><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/australia/1.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/australia/1.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1102,7 +1102,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/27160280"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/australia/2.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/australia/2.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1114,7 +1114,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/22260510"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/australia/3.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/australia/3.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1128,7 +1128,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/36220168"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/australia/4.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/australia/4.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1141,7 +1141,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/34285158#source=bb"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/australia/5.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/australia/5.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1153,7 +1153,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/5784879"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/australia/6.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/australia/6.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1171,7 +1171,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://vacations.ctrip.com/grouptravel/p2434769s2.html" ><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/asia/1.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/asia/1.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1184,7 +1184,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/306118"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/asia/2.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/asia/2.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1196,7 +1196,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/22129296"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/asia/3.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/asia/3.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1210,7 +1210,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/469590"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/asia/4.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/asia/4.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1223,7 +1223,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/28316094"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/asia/5.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/asia/5.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1235,7 +1235,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/36212453"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/asia/6.png"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/asia/6.png"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1253,7 +1253,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://taocan.ctrip.com/freetravel/p68122s2.html" ><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/america/1.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/america/1.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1266,7 +1266,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/23774395"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/america/2.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/america/2.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1278,7 +1278,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/21659871"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/america/3.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/america/3.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1292,7 +1292,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://vacations.ctrip.com/grouptravel/p1675876s2.html"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/america/4.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/america/4.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1305,7 +1305,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/25995923"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/america/5.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/america/5.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1317,7 +1317,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/30360185"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/america/6.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/america/6.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1335,7 +1335,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/5200470" ><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/ship/1.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/ship/1.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1348,7 +1348,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/36611081"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/ship/2.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/ship/2.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1360,7 +1360,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/456099"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/ship/3.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/ship/3.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1374,7 +1374,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://nj.tuniu.com/tours/30411081"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/ship/4.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/ship/4.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1387,7 +1387,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://www.tuniu.com/tours/5200507"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/ship/5.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/ship/5.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1399,7 +1399,7 @@
                                                 <div class="col-sm-6 col-md-4 thumbnail">
                                                     <a href="http://vacations.ctrip.com/grouptravel/p5572397s2.html"><img
                                                             class="img-thumbnail" alt="140x140"
-                                                            src="./images/travel/2worldwide/ship/6.jpg"
+                                                            src="/views/v3.6admin/images/travel/2worldwide/ship/6.jpg"
                                                             style="height: 150px;width: 270px "/></a>
 
                                                     <p>
@@ -1442,7 +1442,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://vacations.ctrip.com/around/p85372s2.html"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/3nearby/1.jpg"
+                                    src="/views/v3.6admin/images/travel/3nearby/1.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -1454,7 +1454,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://vacations.ctrip.com/around/p1922079s2.html"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/3nearby/2.jpg"
+                                    src="/views/v3.6admin/images/travel/3nearby/2.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -1467,7 +1467,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://www.tuniu.com/tours/210054040#source=bb"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/3nearby/3.jpg"
+                                    src="/views/v3.6admin/images/travel/3nearby/3.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -1481,7 +1481,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://vacations.ctrip.com/around/p3707207s2.html"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/3nearby/4.jpg"
+                                    src="/views/v3.6admin/images/travel/3nearby/4.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -1493,7 +1493,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://vacations.ctrip.com/around/p2837195s2.html"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/3nearby/5.jpg"
+                                    src="/views/v3.6admin/images/travel/3nearby/5.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -1505,7 +1505,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://vacations.ctrip.com/around/p1836591s2.html"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/3nearby/6.jpg"
+                                    src="/views/v3.6admin/images/travel/3nearby/6.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -1542,7 +1542,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://you.ctrip.com/travels/xuexiang1445063/2832346.html"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/4essay/1.jpg"
+                                    src="/views/v3.6admin/images/travel/4essay/1.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -1554,7 +1554,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://you.ctrip.com/travels/hainan100001/2833039.html"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/4essay/2.jpg"
+                                    src="/views/v3.6admin/images/travel/4essay/2.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -1567,7 +1567,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://you.ctrip.com/travels/haerbin151/2836181.html"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/4essay/3.jpg"
+                                    src="/views/v3.6admin/images/travel/4essay/3.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -1581,7 +1581,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://you.ctrip.com/travels/xian7/2236924.html"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/4essay/4.jpg"
+                                    src="/views/v3.6admin/images/travel/4essay/4.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -1593,7 +1593,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://you.ctrip.com/travels/santorini1998/2835850.html"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/4essay/5.jpg"
+                                    src="/views/v3.6admin/images/travel/4essay/5.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -1605,7 +1605,7 @@
                         <div class="col-sm-6 col-md-4 thumbnail">
                             <a href="http://you.ctrip.com/travels/bali438/2834447.html"><img
                                     class="img-thumbnail" alt="140x140"
-                                    src="./images/travel/4essay/6.jpg"
+                                    src="/views/v3.6admin/images/travel/4essay/6.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
@@ -1640,7 +1640,7 @@
 
 <a href="#" id="toTop" class="fa fa-chevron-up"></a>
 
-<script src="js/jquery.singlePageNav.min.js"></script>
+<script src="/views/v3.6admin/js/jquery.singlePageNav.min.js"></script>
 <script>
     // Prevent console.log from generating errors in IE for the purposes of the demo
     if (!window.console) console = {
@@ -1788,8 +1788,8 @@
     }
 </script>
 <!--[if IE]>
-<script type="text/javascript" src="js/excanvas.js"></script><![endif]-->
-<script src="js/jquery.knob.js"></script>
+<script type="text/javascript" src="/views/v3.6admin/js/excanvas.js"></script><![endif]-->
+<script src="/views/v3.6admin/js/jquery.knob.js"></script>
 <script>
     $(function ($) {
         $(".knob").knob({
@@ -1887,6 +1887,6 @@ LazyLoad.css(["css/city/cityStyle.css"], function () {
     });
 });
 </script>
-<script src="js/isotop_ini.js"></script>
+<script src="/views/v3.6admin/js/isotop_ini.js"></script>
 </body>
 </html>

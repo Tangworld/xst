@@ -543,6 +543,14 @@
                             <div class="clearfix"></div>
                         </nav>
 
+                        <script>
+                            $(".pagination>li").click(function(){
+                                alert("kjf");
+                                $(this).addClass("active");
+                                $(this).siblings(".active").removeClass("active");
+                            })
+                        </script>
+
                         <!--<nav id="page">-->
                             <!--<ul class="pagination">-->
                                 <!--<li>-->
