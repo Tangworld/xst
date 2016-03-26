@@ -3,6 +3,7 @@ package com.xst.controller;
 import com.xst.bean.ResourcesEntity;
 import com.xst.bean.UserEntity;
 import com.xst.dao.MainDao;
+import com.xst.dao.ResourcesDao;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -21,7 +22,10 @@ import java.util.List;
 public class MainController {
 
     @Autowired
-    MainDao mainDao;
+    private MainDao mainDao;
+
+    @Autowired
+    private ResourcesDao resourcesDao;
 
     @RequestMapping(value = "/login" , method = RequestMethod.POST)
     public String login(Model model,@RequestParam String username,@RequestParam String password){
@@ -31,8 +35,9 @@ public class MainController {
             accessPassword = user.getPassword();
         }
         if(accessPassword.equals(password)){
-            model.addAttribute("user","欢迎您，"+username);
+            model.addAttribute("user",username);
 
+            model.addAttribute("abc","用户中心");
         }
         return "v3.6admin/index";
     }
@@ -40,8 +45,19 @@ public class MainController {
     @RequestMapping(value = "/regist" , method = RequestMethod.POST)
     public String regist(Model model,@RequestParam String registusername,@RequestParam String registpassword,@RequestParam String registemail){
         mainDao.saveUser(registusername, registpassword, registemail);
-        model.addAttribute("user","欢迎您，"+registusername);
+        System.out.println(registusername);
+        model.addAttribute("user",registusername);
         return "v3.6admin/index";
+    }
+
+    @RequestMapping(value = "/search" , method = RequestMethod.POST)
+    public String search(Model model,@RequestParam String endcity){
+        System.out.println(endcity);
+        List<ResourcesEntity> list =  resourcesDao.getByStartEndCity(1,5,"南京",endcity).getList();
+        model.addAttribute("list",list);
+        model.addAttribute("startcity","南京");
+        model.addAttribute("endcity",endcity);
+        return "v3.6admin/result";
     }
 
 }

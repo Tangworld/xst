@@ -59,7 +59,7 @@ public class ResourcesDao extends BaseDao {
     }
 
     public Page<ResourcesEntity> getByStartEndCity(int pageNum,int pageSize,String start,String end){
-        String hql = "from ResourcesEntity as resources where startCity="+start+" and endCity="+end;
+        String hql = "from ResourcesEntity as resources where startCity='"+start+"' and endCity='"+end+"'";
         Query query = query(hql);
         return pageHandler.getPage(pageNum,pageSize,
                 ResourcesEntity.class,query);

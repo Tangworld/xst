@@ -110,17 +110,17 @@
                     <div class="col-md-2">
                         <h1 class="logo_head">
                             <!--<a href="index.jsp">Make Each Day Count</a>-->
-                            <a href="index.jsp">MagicCloud${user}${test}</a>
+                            <a href="index.jsp">MagicCloud</a>
                             <!--<p>Magic Cloud</p>-->
                         </h1>
                     </div>
                     <div class="col-md-6" style="padding-top: 20px">
-                        <form class="form-inline" action="result.jsp">
+                        <form class="form-inline" action="${pageContext.request.contextPath}/main/search" method="post">
                             <img src="/views/v3.6admin/images/icon/position.png" alt="" height="35px" width="35px"/>
                             <lable id="current-city">南京</lable>
                             <div style="display: inline">
                                 <input type="text" class="form-control" placeholder="请输入城市名"
-                                       aria-describedby="basic-addon1" id="inputTest2"
+                                       aria-describedby="basic-addon1" id="inputTest2" name="endcity"
                                        style="width: 70%;font-size: 20px">
                             </div>
                             <button type="submit" class="btn btn-default btn-lg" id="b01"
@@ -132,7 +132,8 @@
                         <nav>
                             <ul>
                                 <li><a href="#home" class="current">主页</a></li>
-                                <li><a href="javascript:void(0)" onclick="openLogin()">登录</a></li>
+                                <li><a id="nav-login" href="javascript:void(0)" onclick="openLogin()"><c:if test="${abc ==null}">登录</c:if>
+                                                                                        <c:if test="${abc!=null}">${user} </c:if> </a></li>
                                 <!--<li><a href="#" onclick="window.location.href='regist.jsp'">注册</a></li>-->
                                 <li><a href="javascript:void(0)" onclick="openRegister()">注册</a></li>
                             </ul>
@@ -142,6 +143,13 @@
             </div>
 
         </div>
+
+        <script>
+//            alert($("#nav-login").text());
+            if($("#nav-login").text().trim()=="${user}"){
+                $("#nav-login").attr("onclick","window.location.href='views/v3.6admin/result.jsp'");
+            }
+        </script>
 
         <!--弹出式登录框-->
         <div class="modal-dialog" id="login">
@@ -165,7 +173,7 @@
                         </div>
 
                         <div class="form-group">
-                            <input type="submit" class="btn btn-primary btn-lg btn-block">立刻登录</input>
+                            <input type="submit" class="btn btn-primary btn-lg btn-block" value="立刻登录">
                             <span><a href="javascript:void(0)" style="text-align: left">找回密码</a></span>
                             <span><a href="javascript:void(0)" class="pull-right re-register">注册</a></span>
                         </div>
@@ -209,7 +217,7 @@
                         </div>
 
                         <div class="form-group">
-                            <intput type="submit" class="btn btn-primary btn-lg btn-block">注册</intput>
+                            <input type="submit" class="btn btn-primary btn-lg btn-block" value="注册">
                             <span><a href="javascript:void(0)" style="text-align: left">找回密码</a></span>
                             <span><a href="javascript:void(0)" class="pull-right re-login">登录</a></span>
                         </div>

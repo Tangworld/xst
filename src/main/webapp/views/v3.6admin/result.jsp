@@ -192,7 +192,7 @@
                             <div class="form-group">
                                 <button class="btn btn-primary btn-lg btn-block">注册</button>
                                 <span><a href="javascript:void(0)" style="text-align: left">找回密码</a></span>
-                                <span><a href="javascript:void(0)" class="pull-right re-login">登录</a></span>
+                                <span><a href="javascript:void(0)" class="pull-right re-login">登录 </a></span>
                             </div>
                         </form>
                     </div>
@@ -235,35 +235,31 @@
 
             <div id="range">
                 <div class="price-range">
-                    <form class="choose-city">
+                    <form class="choose-city" action="${pageContext.request.contextPath}/resources/query" method="post">
                         <div class="container-fluid">
                             <div class="row">
-                                <form action="${pageContext.request.contextPath}/resources/query?page=1">
                                     <div class="col-md-4">
-                                        <input type="text" class="form-control" id="inputTest3" name="start" placeholder="出发地">
+                                        <input type="text" class="form-control" id="inputTest3" name="start" value="${startcity}" placeholder="出发地">
                                     </div>
                                     <span class="col-md-1"><strong class="fa fa-long-arrow-right fa-3x"></strong></span>
                                     <div class="col-md-4">
-                                        <input type="text" class="form-control" id="inputTest4" name="end" placeholder="目的地">
+                                        <input type="text" class="form-control" id="inputTest4" name="end" value="${endcity}" placeholder="目的地">
                                     </div>
-                                    <input type="submit" class="btn btn-warning btn-lg col-md-2"> </input>
-                                </form>
+                                    <input type="submit" class="btn btn-warning btn-lg col-md-2" value="查询">
                             </div>
                         </div>
-                    </form>
 
 
                     <div class="line"></div>
                     <div class="addon"><span><i class="fa fa-check-square-o"></i>非必选</span></div>
-                    <form class="choose-price">
                         <div class="container-fluid">
                             <div class="row">
                                 <div class="col-md-4">
-                                    <input type="text" class="form-control" id="price-min" placeholder="最低价">
+                                    <input type="text" class="form-control" id="price-min" name="min" placeholder="最低价">
                                 </div>
                                 <span class="col-md-1"><strong class="fa fa-long-arrow-right fa-3x"></strong></span>
                                 <div class="col-md-4">
-                                    <input type="email" class="form-control" id="price-max" placeholder="最高价">
+                                    <input type="email" class="form-control" id="price-max" name="max" placeholder="最高价">
                                 </div>
                             </div>
                         </div>

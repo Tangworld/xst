@@ -26,6 +26,7 @@
     <!-- Spring & Spring mvc -->
     <dependency>
       <groupId>org.springframework</groupId>
+
       <artifactId>spring-aop</artifactId>
       <version>${spring.version}</version>
     </dependency>

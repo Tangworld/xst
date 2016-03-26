@@ -20,6 +20,7 @@ public class MainDao extends BaseDao {
         List<UserEntity> users = query.list();
         return users;
     }
+
     public void saveUser(String username,String password,String email){
 
         UserEntity user = new UserEntity();
@@ -28,5 +29,8 @@ public class MainDao extends BaseDao {
         user.setPassword(password);
         user.setEmail(email);
         save(user);
+    }
+    public UserEntity getUserById(int uid){
+        return get(UserEntity.class,uid);
     }
 }

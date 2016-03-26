@@ -44,4 +44,13 @@ public class ResourcesControllerTest {
                 .andExpect(status().isOk())
                 .andDo(print());
     }
+
+
+    @Test
+    public void testregist() throws Exception {
+        mockMvc
+                .perform(get("/main/regist"))
+                .andExpect(status().isOk())
+                .andDo(print());
+    }
 }

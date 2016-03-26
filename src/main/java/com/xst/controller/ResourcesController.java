@@ -20,26 +20,10 @@ public class ResourcesController {
     private static final int pageSize = 5;
     @Autowired
     private ResourcesDao resourcesDao;
-
-//    @ResponseBody
-//    @RequestMapping(value = "/list" , method = RequestMethod.GET)
-//    public List<ResourcesEntity> List(){
-//
-//        return resourcesDao.List();
-//
-//    }
     @RequestMapping(value = "/list" , method = RequestMethod.GET)
     public String ListPage(Model model,@RequestParam int page){
-
-
-        // List<ResourcesEntity> list = new ArrayList<ResourcesEntity>();
-
         List<ResourcesEntity> list =  resourcesDao.PageQuery(page,pageSize).getList();
         model.addAttribute("list",list);
-       // model.addAttribute("page",page);
-//            list = resourcesDao.List();
-//            model.addAttribute("list", list);
-//            System.out.println(list.get(1).getDays());
         for(ResourcesEntity re:list){
             System.out.println(re.getName());
         }
@@ -48,25 +32,17 @@ public class ResourcesController {
 
     }
 
-    @RequestMapping(value = "/query" , method = RequestMethod.GET)
+    @RequestMapping(value = "/query" , method = RequestMethod.POST)
     public String QueryByStartEnd(Model model,@RequestParam String start,
-                                  @RequestParam String end, @RequestParam int page){
-
-
-        // List<ResourcesEntity> list = new ArrayList<ResourcesEntity>();
-
-        List<ResourcesEntity> list =  resourcesDao.getByStartEndCity(page,pageSize,start,end).getList();
+                                  @RequestParam String end){
+        List<ResourcesEntity> list =  resourcesDao.getByStartEndCity(1,pageSize,start,end).getList();
         model.addAttribute("list",list);
-        // model.addAttribute("page",page);
-//            list = resourcesDao.List();
-//            model.addAttribute("list", list);
-//            System.out.println(list.get(1).getDays());
+        model.addAttribute("startcity",start);
+        model.addAttribute("endcity",end);
         for(ResourcesEntity re:list){
             System.out.println(re.getName());
         }
-
         return "v3.6admin/result";
-
     }
 
 }
