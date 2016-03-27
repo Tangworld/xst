@@ -1,0 +1,51 @@
+.content .main-content h4 {
+  margin-left: 15px; }
+.content .main-content .parameter {
+  height: 70px;
+  margin: 15px 15px; }
+  .content .main-content .parameter span {
+    float: left;
+    padding: 10px;
+    background-color: #409DFE;
+    color: white;
+    line-height: 20px;
+    border-radius: 5px; }
+  .content .main-content .parameter ul {
+    float: left;
+    list-style-type: none; }
+    .content .main-content .parameter ul li {
+      text-align: center;
+      margin-left: 30px;
+      padding: 10px;
+      width: 140px;
+      height: 40px;
+      border: 1px solid #d2ccc4;
+      font-weight: bold;
+      cursor: pointer;
+      white-space: nowrap;
+      text-overflow: ellipsis;
+      overflow: hidden;
+      z-index: 99;
+      border-radius: 4px; }
+      .content .main-content .parameter ul li:hover {
+        border: 1px solid #409DFE;
+        box-shadow: 0 0 3px #409DFE; }
+      .content .main-content .parameter ul li.cur {
+        border: 1px solid #409DFE;
+        box-shadow: 0 0 3px #409DFE; }
+    .content .main-content .parameter ul .tree {
+      border-bottom: none;
+      display: none; }
+      .content .main-content .parameter ul .tree:first-child {
+        border-top: none; }
+      .content .main-content .parameter ul .tree:last-child {
+        border-bottom: 1px solid #d2ccc4; }
+  .content .main-content .parameter .btn {
+    height: 40px;
+    margin-left: 160px; }
+.content .main-content .modal {
+  font-size: 18px; }
+  .content .main-content .modal .modal-body {
+    text-align: center; }
+
+/*# sourceMappingURL=web-parameter.css.map */

@@ -33,6 +33,9 @@ public class MainController {
         List<UserEntity> users= mainDao.queryByName(username);
         for(UserEntity user:users){
             accessPassword = user.getPassword();
+            if(user.getAuthority()==1){
+                return "v3.6admin/admin/index";
+            }
         }
         if(accessPassword.equals(password)){
             model.addAttribute("user",username);

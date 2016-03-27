@@ -541,7 +541,7 @@
 
                         <script>
                             $(".pagination>li").click(function(){
-                                alert("kjf");
+                                //alert("kjf");
                                 $(this).addClass("active");
                                 $(this).siblings(".active").removeClass("active");
                             })

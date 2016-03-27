@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGM,yCAAW;EACT,aAAa,EAAE,GAAG;EAClB,YAAY,EAAE,iBAAiB;AAGnC,oCAAa;EACX,SAAS,EAAE,IAAI;AAEjB,kCAAW;EACT,UAAU,EAAE,MAAM;EAClB,SAAS,EAAE,IAAI;EACf,qCAAE;IACA,UAAU,EAAE,IAAI;IAChB,wCAAE;MACA,KAAK,EAAE,IAAI;MACX,MAAM,EAAE,IAAI",
+"sources": ["users-change.scss"],
+"names": [],
+"file": "users-change.css"
+}

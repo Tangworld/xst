@@ -2,23 +2,323 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862a1962-084b-4f3e-b744-03da213ff07a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/java/com/xst/test/dao/MainDaoTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/classes/com/xst/controller/MainController.class" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/classes/com/xst/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xst/controller/MainController.class" afterPath="$PROJECT_DIR$/target/classes/com/xst/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/classes/com/xst/dao/MainDao.class" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/classes/com/xst/dao/MainDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xst/dao/MainDao.class" afterPath="$PROJECT_DIR$/target/classes/com/xst/dao/MainDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/classes/com/xst/controller/ResourcesController.class" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/classes/com/xst/controller/ResourcesController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xst/controller/ResourcesController.class" afterPath="$PROJECT_DIR$/target/classes/com/xst/controller/ResourcesController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/xst/test/controller/ResourcesControllerTest.class" afterPath="$PROJECT_DIR$/target/test-classes/com/xst/test/controller/ResourcesControllerTest.class" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/help.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/140x140.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/170x170.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/blog/442256_20337880.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/blog/472381_10949156.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/blog/503993_62595320.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/blog/625998_12886207.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/blog/737034_24905666.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/blog/789080_16753532.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/blog/888272_30368604.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/blog/images.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/faces/1a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/faces/1b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/faces/2a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/faces/2b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/faces/3a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/faces/3b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/faces/4a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/faces/4b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/faces/5b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/faces/6b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/faces/7b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/faces/images.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/319768_8498.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/403944_5580.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/43616_6206.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/442256_20337880.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/463600_31373324.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/472381_10949156.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/485382_81894547.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/503993_62595320.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/544337_83543416.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/625998_12886207.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/737034_24905666.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/760375_32906821.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/789080_16753532.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/888272_30368604.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/gallery/images.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/less.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/loading-icons/images.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/loading-icons/loading1.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/loading-icons/loading10.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/loading-icons/loading2.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/loading-icons/loading3.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/loading-icons/loading4.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/loading-icons/loading5.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/loading-icons/loading6.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/loading-icons/loading7.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/loading-icons/loading8.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/loading-icons/loading9.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/media/1.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/media/3.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/media/5.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/media/6.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/middleman.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/1083978.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/1139155.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/1170492.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/1192482.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/1205972.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/1208847.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/1248972.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/471397.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/653195.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/671385.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/764343.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/797762.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/912129.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/people/923068.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/preview/10.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/preview/11.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/preview/12.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/preview/13.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/preview/8.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/preview/9.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/images/tumblr_mopqkkwK2M1st5lhmo1_1280.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/bootstrap/css/bootstrap-theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/bootstrap/css/bootstrap-theme.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/bootstrap/css/bootstrap-theme.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/bootstrap/css/bootstrap.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/bootstrap/css/bootstrap.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/bootstrap/css/bootstrap.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/bootstrap/fonts/glyphicons-halflings-regular.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/bootstrap/fonts/glyphicons-halflings-regular.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/bootstrap/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/bootstrap/fonts/glyphicons-halflings-regular.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/bootstrap/js/bootstrap.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/bootstrap/js/bootstrap.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fancy-zoom/css/fancyzoom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fancy-zoom/img/closebox.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fancy-zoom/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fancy-zoom/src/fancyzoom.coffee" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fancy-zoom/src/fancyzoom.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/API.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/FAQ.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/LICENSE.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/NEWS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/PLUGINS.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/README.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/ajax.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/annotating.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/arrow-down.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/arrow-left.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/arrow-right.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/arrow-up.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/basic.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/data-eu-gdp-growth-1.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/data-eu-gdp-growth-2.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/data-eu-gdp-growth-3.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/data-eu-gdp-growth-4.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/data-eu-gdp-growth-5.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/data-eu-gdp-growth.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/data-japan-gdp-growth.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/data-usa-gdp-growth.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/graph-types.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/hs-2004-27-a-large_web.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/image.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/interacting-axes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/interacting.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/layout.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/multiple-axes.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/navigate.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/percentiles.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/pie.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/realtime.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/resize.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/selection.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/setting-options.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/stacking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/symbols.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/thresholding.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/time.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/tracking.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/turning-series.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/visitors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/examples/zooming.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/excanvas.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/excanvas.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.colorhelpers.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.flot.crosshair.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.flot.fillbetween.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.flot.image.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.flot.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.flot.navigate.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.flot.pie.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.flot.resize.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.flot.selection.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.flot.stack.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.flot.symbol.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.flot.threshold.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/flot/jquery.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/css/bf/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/css/bf/font-awesome.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/css/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/fonts/FontAwesome.otf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/fonts/fontawesome-webfont.eot" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/fonts/fontawesome-webfont.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/fonts/fontawesome-webfont.ttf" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/fonts/fontawesome-webfont.woff" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/bordered-pulled.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/core.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/fixed-width.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/font-awesome.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/icons.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/larger.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/list.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/mixins.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/path.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/rotated-flipped.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/spinning.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/stacked.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/less/variables.less" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/_bordered-pulled.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/_core.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/_fixed-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/_icons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/_larger.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/_list.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/_mixins.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/_path.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/_rotated-flipped.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/_spinning.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/_stacked.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/_variables.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/font-awesome.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/font-awesome.css.map" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/font-awesome/scss/font-awesome.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/changelog.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/agenda-views.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/basic-views.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/animated-overlay.gif" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-bg_diagonals-thick_90_eeeeee_40x40.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-bg_flat_15_cd0a0a_40x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-bg_glass_100_e4f1fb_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-bg_glass_50_3baae3_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-bg_glass_80_d7ebf9_1x400.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-bg_highlight-hard_100_f2f5f7_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-bg_highlight-hard_70_000000_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-bg_highlight-soft_100_deedf7_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-bg_highlight-soft_25_ffef8f_1x100.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-icons_2694e8_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-icons_2e83ff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-icons_3d80b3_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-icons_72a7cf_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/images/ui-icons_ffffff_256x240.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/cupertino/jquery-ui.min.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/default.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/external-dragging.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/gcal.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/json-events.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/json.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/selectable.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/demos/theme.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/fullcalendar/fullcalendar.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/fullcalendar/fullcalendar.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/fullcalendar/fullcalendar.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/fullcalendar/fullcalendar.print.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/fullcalendar/gcal.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/lib/jquery-ui.custom.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/lib/jquery.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/fullcalendar-1.6.4/license.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/jQuery-Knob/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/jQuery-Knob/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/jQuery-Knob/js/jquery.knob.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/jQuery-Knob/knob.jquery.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/jquery-1.11.1.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/jquery.imagesloaded.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/jquery.isotope.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/jquery.masonry.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/lib/jquery.peity.min.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-blog-item.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-build.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-colors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-invoice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-pricing-tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-search-results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-upgrade-account.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-users.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/premium-widgets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/privacy-policy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/reset-password.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/sign-in.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/sign-up.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/stylesheets/elements.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/stylesheets/isotope.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/stylesheets/premium.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/stylesheets/theme.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/terms-and-conditions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/users.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/找网站模板就上【模板之家】cssMoban.com.url" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/说明.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/calendar.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/faq.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/help.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/faces/1a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/faces/1b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/faces/2a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/faces/2b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/faces/3a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/faces/3b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/faces/4a.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/faces/4b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/faces/5b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/faces/6b.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/faces/7b.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/faces/images.txt" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/1083978.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/1139155.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/1170492.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/1192482.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/1205972.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/1208847.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/1248972.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/471397.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/653195.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/671385.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/764343.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/797762.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/912129.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/images/people/923068.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/index.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-blog-item.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-blog.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-build.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-colors.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-invoice.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-media.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-pricing-tables.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-profile.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-search-results.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-timeline.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-upgrade-account.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-users.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/premium-widgets.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/privacy-policy.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/reset-password.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/sign-in.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/sign-up.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/terms-and-conditions.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/user.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/users.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/找网站模板就上【模板之家】cssMoban.com.url" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/说明.txt" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xst/dao/MainDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/xst/dao/MainDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xst/controller/ResourcesController.java" afterPath="$PROJECT_DIR$/src/main/java/com/xst/controller/ResourcesController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/xst/test/controller/ResourcesControllerTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/xst/test/controller/ResourcesControllerTest.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xst/dao/ResourcesDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/xst/dao/ResourcesDao.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/index.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/result.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/result.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
@@ -45,139 +345,66 @@
   <component name="FileEditorManager">
     <leaf>
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="-5.5555553">
-              <caret line="148" column="54" selection-start-line="148" selection-start-column="54" selection-end-line="148" selection-end-column="54" />
-              <folding>
-                <marker date="1458994402981" expanded="false" signature="3350:3402" placeholder="..." />
-                <marker date="1458994402981" expanded="true" signature="3403:3828" placeholder="..." />
-                <marker date="1458994402981" expanded="true" signature="3522:3817" placeholder="..." />
-                <marker date="1458994402981" expanded="true" signature="3639:3804" placeholder="..." />
-                <marker date="1458994402981" expanded="true" signature="6712:6829" placeholder="..." />
-              </folding>
+            <state vertical-scroll-proportion="-36.88889">
+              <caret line="204" column="51" selection-start-line="204" selection-start-column="51" selection-end-line="204" selection-end-column="51" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="MainController.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="-0.5104895">
+              <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/BaseDao.java">
+      <file leaf-file-name="spring.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-20.903225">
+              <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="springmvc.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/conf/springmvc.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-6.225806">
+              <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Chart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/js/Chart.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+              <caret line="166" column="50" selection-start-line="166" selection-start-column="50" selection-end-line="166" selection-end-column="50" />
               <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#463#464#0" expanded="false" />
-                <element signature="e#506#507#0" expanded="false" />
-                <element signature="e#589#590#0" expanded="false" />
-                <element signature="e#642#643#0" expanded="false" />
-                <element signature="e#723#724#0" expanded="false" />
-                <element signature="e#755#756#0" expanded="false" />
-                <element signature="e#835#836#0" expanded="false" />
-                <element signature="e#869#870#0" expanded="false" />
-                <element signature="e#957#958#0" expanded="false" />
-                <element signature="e#997#998#0" expanded="false" />
-                <element signature="e#1121#1122#0" expanded="false" />
-                <element signature="e#1167#1168#0" expanded="false" />
-                <element signature="e#1370#1371#0" expanded="false" />
-                <element signature="e#1404#1405#0" expanded="false" />
-                <element signature="e#1708#1709#0" expanded="false" />
-                <element signature="e#1756#1757#0" expanded="false" />
+                <marker date="1459078812008" expanded="true" signature="73249:73292" placeholder="..." />
+                <marker date="1459078812008" expanded="true" signature="83325:83368" placeholder="..." />
+                <marker date="1459078812008" expanded="true" signature="90135:90180" placeholder="..." />
+                <marker date="1459078812008" expanded="true" signature="102256:102299" placeholder="..." />
+                <marker date="1459078812008" expanded="true" signature="110152:110197" placeholder="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="result.jsp" pinned="false" current-in-tab="true">
+      <file leaf-file-name="result.jsp" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.6865672">
-              <caret line="261" column="101" selection-start-line="261" selection-start-column="101" selection-end-line="261" selection-end-column="101" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/page/PageDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#445#446#0" expanded="false" />
-                <element signature="e#498#499#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PageHandler.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/page/PageHandler.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourcesController.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/ResourcesController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourcesEntity.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/bean/ResourcesEntity.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-              <folding>
-                <element signature="e#2078#2079#0" expanded="true" />
-                <element signature="e#2120#2121#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="MainDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/MainDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="false" />
-                <element signature="e#926#927#0" expanded="false" />
-                <element signature="e#974#975#0" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ResourcesDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/ResourcesDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="61" column="105" selection-start-line="61" selection-start-column="105" selection-end-line="61" selection-end-column="105" />
+            <state vertical-scroll-proportion="-88.0">
+              <caret line="542" column="65" selection-start-line="542" selection-start-column="65" selection-end-line="542" selection-end-column="65" />
               <folding />
             </state>
           </provider>
@@ -209,11 +436,26 @@
         <option value="$PROJECT_DIR$/src/main/java/com/xst/dao/MainDao.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xst/test/dao/MainDaoTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/xst/dao/ResourcesDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xst/controller/ResourcesController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/calendar.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/faq.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/sign-in.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/sign-up.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/user.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/users.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/users-change.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/web-bug.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/web-latest.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/web-parameter.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/calendar.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/js/Chart.js" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java" />
       </list>
     </option>
   </component>
@@ -267,7 +509,7 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scratches" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -552,8 +794,8 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -564,9 +806,17 @@
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
   </component>
-  <component name="RunManager" selected="Tomcat Server.index.jsp (1)">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/views" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/views/v3.6admin" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Tomcat Server.index.jsp (2)">
     <configuration default="false" name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/index.jsp" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/admin/index.jsp" />
       <deployment>
         <artifact name="XST:war">
           <settings>
@@ -575,7 +825,7 @@
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_XST_4" />
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_XST_5" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -604,17 +854,17 @@
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="index.jsp (3)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/index.jsp" />
+    <configuration default="false" name="index.jsp (4)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/admin/index.jsp" />
       <deployment>
-        <artifact name="XST:war exploded">
+        <artifact name="XST:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(3)_XST_2" />
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(4)_XST_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -639,21 +889,21 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="XST:war exploded" />
+          <artifact name="XST:war" />
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="result.jsp (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/result.jsp" />
+    <configuration default="false" name="index.jsp (5)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/admin/index.jsp" />
       <deployment>
-        <artifact name="XST:war exploded">
+        <artifact name="XST:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="result_jsp_(2)_XST_2" />
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(5)_XST_2" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -678,60 +928,21 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="XST:war exploded" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="false" name="result.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/result.jsp" />
-      <deployment>
-        <artifact name="XST:war exploded">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="result_jsp_(1)_XST_4" />
-      </server-settings>
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="XST:war exploded" />
+          <artifact name="XST:war" />
         </option>
       </method>
     </configuration>
     <configuration default="false" name="index.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/index.jsp" />
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/admin/index.jsp" />
       <deployment>
-        <artifact name="XST:war exploded">
+        <artifact name="XST:war">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(1)_XST_5" />
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(1)_XST_6" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -756,7 +967,46 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="XST:war exploded" />
+          <artifact name="XST:war" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="index.jsp (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/index.jsp" />
+      <deployment>
+        <artifact name="XST:war">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(2)_XST_5" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="XST:war" />
         </option>
       </method>
     </configuration>
@@ -1022,17 +1272,17 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (3)" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.result.jsp (2)" />
-      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.result.jsp (1)" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (4)" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (5)" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.result.jsp (1)" />
-        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.result.jsp (2)" />
-        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (3)" />
+        <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (5)" />
+        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (4)" />
         <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
       </list>
     </recent_temporary>
@@ -1050,16 +1300,18 @@
       <workItem from="1458824905274" duration="1922000" />
       <workItem from="1458899543579" duration="13771000" />
       <workItem from="1458975330652" duration="11895000" />
-      <workItem from="1458992761593" duration="4205000" />
+      <workItem from="1458992761593" duration="5393000" />
+      <workItem from="1459067007164" duration="653000" />
+      <workItem from="1459077440821" duration="3249000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31793000" />
+    <option name="totallyTimeSpent" value="36883000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1077,7 +1329,6 @@
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1088,6 +1339,7 @@
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
   <component name="Vcs.Log.UiProperties">
@@ -1110,73 +1362,11 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="144" column="14" selection-start-line="144" selection-start-column="14" selection-end-line="144" selection-end-column="14" />
-          <folding>
-            <marker date="1458994402981" expanded="false" signature="3350:3402" placeholder="..." />
-            <marker date="1458994402981" expanded="true" signature="3403:3828" placeholder="..." />
-            <marker date="1458994402981" expanded="true" signature="3522:3817" placeholder="..." />
-            <marker date="1458994402981" expanded="true" signature="3639:3804" placeholder="..." />
-            <marker date="1458994402981" expanded="true" signature="6712:6829" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#589#590#0" expanded="false" />
-            <element signature="e#642#643#0" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-            <element signature="e#755#756#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#957#958#0" expanded="false" />
-            <element signature="e#997#998#0" expanded="false" />
-            <element signature="e#1121#1122#0" expanded="false" />
-            <element signature="e#1167#1168#0" expanded="false" />
-            <element signature="e#1370#1371#0" expanded="false" />
-            <element signature="e#1404#1405#0" expanded="false" />
-            <element signature="e#1708#1709#0" expanded="false" />
-            <element signature="e#1756#1757#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="194" column="97" selection-start-line="194" selection-start-column="97" selection-end-line="194" selection-end-column="97" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/page/PageDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#445#446#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1184,9 +1374,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1203,8 +1391,48 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding>
-            <element signature="e#2078#2079#0" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#613#614#0" expanded="false" />
+            <element signature="e#643#644#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#891#892#0" expanded="false" />
+            <element signature="e#923#924#0" expanded="false" />
+            <element signature="e#973#974#0" expanded="false" />
+            <element signature="e#1015#1016#0" expanded="false" />
+            <element signature="e#1091#1092#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="false" />
+            <element signature="e#1167#1168#0" expanded="false" />
+            <element signature="e#1205#1206#0" expanded="false" />
+            <element signature="e#1275#1276#0" expanded="false" />
+            <element signature="e#1302#1303#0" expanded="false" />
+            <element signature="e#1343#1344#0" expanded="false" />
+            <element signature="e#1375#1376#0" expanded="false" />
+            <element signature="e#1450#1451#0" expanded="false" />
+            <element signature="e#1480#1481#0" expanded="false" />
+            <element signature="e#1526#1527#0" expanded="false" />
+            <element signature="e#1564#1565#0" expanded="false" />
+            <element signature="e#1635#1636#0" expanded="false" />
+            <element signature="e#1663#1664#0" expanded="false" />
+            <element signature="e#1705#1706#0" expanded="false" />
+            <element signature="e#1739#1740#0" expanded="false" />
+            <element signature="e#1811#1812#0" expanded="false" />
+            <element signature="e#1839#1840#0" expanded="false" />
+            <element signature="e#1882#1883#0" expanded="false" />
+            <element signature="e#1916#1917#0" expanded="false" />
+            <element signature="e#1996#1997#0" expanded="false" />
+            <element signature="e#2028#2029#0" expanded="false" />
+            <element signature="e#2187#2188#0" expanded="false" />
+            <element signature="e#2213#2214#0" expanded="false" />
+            <element signature="e#2251#2252#0" expanded="false" />
+            <element signature="e#2281#2282#0" expanded="false" />
+            <element signature="e#2359#2360#0" expanded="false" />
+            <element signature="e#2390#2391#0" expanded="false" />
+            <element signature="e#2439#2440#0" expanded="false" />
+            <element signature="e#2479#2480#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1213,11 +1441,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#926#927#0" expanded="false" />
-            <element signature="e#974#975#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1234,11 +1458,11 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="215" column="27" selection-start-line="215" selection-start-column="27" selection-end-line="215" selection-end-column="27" />
           <folding>
-            <marker date="1458994402981" expanded="false" signature="3350:3402" placeholder="..." />
-            <marker date="1458994402981" expanded="true" signature="3403:3828" placeholder="..." />
-            <marker date="1458994402981" expanded="true" signature="3522:3817" placeholder="..." />
-            <marker date="1458994402981" expanded="true" signature="3639:3804" placeholder="..." />
-            <marker date="1458994402981" expanded="true" signature="6712:6829" placeholder="..." />
+            <marker date="1458994402981" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1458994402981" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458994402981" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458994402981" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458994402981" expanded="true" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -1247,9 +1471,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="41" column="19" selection-start-line="41" selection-start-column="19" selection-end-line="41" selection-end-column="19" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1272,8 +1494,48 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding>
-            <element signature="e#2078#2079#0" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#613#614#0" expanded="false" />
+            <element signature="e#643#644#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#891#892#0" expanded="false" />
+            <element signature="e#923#924#0" expanded="false" />
+            <element signature="e#973#974#0" expanded="false" />
+            <element signature="e#1015#1016#0" expanded="false" />
+            <element signature="e#1091#1092#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="false" />
+            <element signature="e#1167#1168#0" expanded="false" />
+            <element signature="e#1205#1206#0" expanded="false" />
+            <element signature="e#1275#1276#0" expanded="false" />
+            <element signature="e#1302#1303#0" expanded="false" />
+            <element signature="e#1343#1344#0" expanded="false" />
+            <element signature="e#1375#1376#0" expanded="false" />
+            <element signature="e#1450#1451#0" expanded="false" />
+            <element signature="e#1480#1481#0" expanded="false" />
+            <element signature="e#1526#1527#0" expanded="false" />
+            <element signature="e#1564#1565#0" expanded="false" />
+            <element signature="e#1635#1636#0" expanded="false" />
+            <element signature="e#1663#1664#0" expanded="false" />
+            <element signature="e#1705#1706#0" expanded="false" />
+            <element signature="e#1739#1740#0" expanded="false" />
+            <element signature="e#1811#1812#0" expanded="false" />
+            <element signature="e#1839#1840#0" expanded="false" />
+            <element signature="e#1882#1883#0" expanded="false" />
+            <element signature="e#1916#1917#0" expanded="false" />
+            <element signature="e#1996#1997#0" expanded="false" />
+            <element signature="e#2028#2029#0" expanded="false" />
+            <element signature="e#2187#2188#0" expanded="false" />
+            <element signature="e#2213#2214#0" expanded="false" />
+            <element signature="e#2251#2252#0" expanded="false" />
+            <element signature="e#2281#2282#0" expanded="false" />
+            <element signature="e#2359#2360#0" expanded="false" />
+            <element signature="e#2390#2391#0" expanded="false" />
+            <element signature="e#2439#2440#0" expanded="false" />
+            <element signature="e#2479#2480#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1282,11 +1544,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#926#927#0" expanded="false" />
-            <element signature="e#974#975#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1309,7 +1567,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1369,7 +1626,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.2629921">
           <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1392,23 +1648,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.90954775">
-          <caret line="62" column="8" selection-start-line="62" selection-start-column="8" selection-end-line="62" selection-end-column="8" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-1.80402">
-          <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1424,11 +1663,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="26" column="29" selection-start-line="26" selection-start-column="29" selection-end-line="26" selection-end-column="29" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#926#927#0" expanded="false" />
-            <element signature="e#974#975#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1436,11 +1671,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-          <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#445#446#0" expanded="false" />
-            <element signature="e#498#499#0" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1448,9 +1679,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1459,8 +1688,48 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
           <folding>
-            <element signature="e#2078#2079#0" expanded="true" />
-            <element signature="e#2120#2121#0" expanded="true" />
+            <element signature="e#552#553#0" expanded="false" />
+            <element signature="e#578#579#0" expanded="false" />
+            <element signature="e#613#614#0" expanded="false" />
+            <element signature="e#643#644#0" expanded="false" />
+            <element signature="e#712#713#0" expanded="false" />
+            <element signature="e#739#740#0" expanded="false" />
+            <element signature="e#779#780#0" expanded="false" />
+            <element signature="e#811#812#0" expanded="false" />
+            <element signature="e#891#892#0" expanded="false" />
+            <element signature="e#923#924#0" expanded="false" />
+            <element signature="e#973#974#0" expanded="false" />
+            <element signature="e#1015#1016#0" expanded="false" />
+            <element signature="e#1091#1092#0" expanded="false" />
+            <element signature="e#1121#1122#0" expanded="false" />
+            <element signature="e#1167#1168#0" expanded="false" />
+            <element signature="e#1205#1206#0" expanded="false" />
+            <element signature="e#1275#1276#0" expanded="false" />
+            <element signature="e#1302#1303#0" expanded="false" />
+            <element signature="e#1343#1344#0" expanded="false" />
+            <element signature="e#1375#1376#0" expanded="false" />
+            <element signature="e#1450#1451#0" expanded="false" />
+            <element signature="e#1480#1481#0" expanded="false" />
+            <element signature="e#1526#1527#0" expanded="false" />
+            <element signature="e#1564#1565#0" expanded="false" />
+            <element signature="e#1635#1636#0" expanded="false" />
+            <element signature="e#1663#1664#0" expanded="false" />
+            <element signature="e#1705#1706#0" expanded="false" />
+            <element signature="e#1739#1740#0" expanded="false" />
+            <element signature="e#1811#1812#0" expanded="false" />
+            <element signature="e#1839#1840#0" expanded="false" />
+            <element signature="e#1882#1883#0" expanded="false" />
+            <element signature="e#1916#1917#0" expanded="false" />
+            <element signature="e#1996#1997#0" expanded="false" />
+            <element signature="e#2028#2029#0" expanded="false" />
+            <element signature="e#2187#2188#0" expanded="false" />
+            <element signature="e#2213#2214#0" expanded="false" />
+            <element signature="e#2251#2252#0" expanded="false" />
+            <element signature="e#2281#2282#0" expanded="false" />
+            <element signature="e#2359#2360#0" expanded="false" />
+            <element signature="e#2390#2391#0" expanded="false" />
+            <element signature="e#2439#2440#0" expanded="false" />
+            <element signature="e#2479#2480#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1470,37 +1739,7 @@
         <state vertical-scroll-proportion="0.0">
           <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding>
-            <element signature="imports" expanded="false" />
-            <element signature="e#463#464#0" expanded="false" />
-            <element signature="e#506#507#0" expanded="false" />
-            <element signature="e#589#590#0" expanded="false" />
-            <element signature="e#642#643#0" expanded="false" />
-            <element signature="e#723#724#0" expanded="false" />
-            <element signature="e#755#756#0" expanded="false" />
-            <element signature="e#835#836#0" expanded="false" />
-            <element signature="e#869#870#0" expanded="false" />
-            <element signature="e#957#958#0" expanded="false" />
-            <element signature="e#997#998#0" expanded="false" />
-            <element signature="e#1121#1122#0" expanded="false" />
-            <element signature="e#1167#1168#0" expanded="false" />
-            <element signature="e#1370#1371#0" expanded="false" />
-            <element signature="e#1404#1405#0" expanded="false" />
-            <element signature="e#1708#1709#0" expanded="false" />
-            <element signature="e#1756#1757#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-5.5555553">
-          <caret line="148" column="54" selection-start-line="148" selection-start-column="54" selection-end-line="148" selection-end-column="54" />
-          <folding>
-            <marker date="1458994402981" expanded="false" signature="3350:3402" placeholder="..." />
-            <marker date="1458994402981" expanded="true" signature="3403:3828" placeholder="..." />
-            <marker date="1458994402981" expanded="true" signature="3522:3817" placeholder="..." />
-            <marker date="1458994402981" expanded="true" signature="3639:3804" placeholder="..." />
-            <marker date="1458994402981" expanded="true" signature="6712:6829" placeholder="..." />
+            <element signature="e#1294#1295#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1513,16 +1752,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/ResourcesController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -1531,10 +1760,150 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="64" />
+          <folding>
+            <marker date="1458994402981" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1458994402981" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458994402981" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458994402981" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1458994402981" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/faq.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/sign-in.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/sign-up.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/users-change.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-bug.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-latest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-parameter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/calendar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.0">
+          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6865672">
-          <caret line="261" column="101" selection-start-line="261" selection-start-column="101" selection-end-line="261" selection-end-column="101" />
+        <state vertical-scroll-proportion="-88.0">
+          <caret line="542" column="65" selection-start-line="542" selection-start-column="65" selection-end-line="542" selection-end-column="65" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-20.903225">
+          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.225806">
+          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/js/Chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="166" column="50" selection-start-line="166" selection-start-column="50" selection-end-line="166" selection-end-column="50" />
+          <folding>
+            <marker date="1459078812008" expanded="true" signature="73249:73292" placeholder="..." />
+            <marker date="1459078812008" expanded="true" signature="83325:83368" placeholder="..." />
+            <marker date="1459078812008" expanded="true" signature="90135:90180" placeholder="..." />
+            <marker date="1459078812008" expanded="true" signature="102256:102299" placeholder="..." />
+            <marker date="1459078812008" expanded="true" signature="110152:110197" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-36.88889">
+          <caret line="204" column="51" selection-start-line="204" selection-start-column="51" selection-end-line="204" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.5104895">
+          <caret line="36" column="47" selection-start-line="36" selection-start-column="47" selection-end-line="36" selection-end-column="47" />
           <folding />
         </state>
       </provider>

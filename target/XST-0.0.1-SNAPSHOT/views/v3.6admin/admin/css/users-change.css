@@ -1,0 +1,15 @@
+.content .main-content .table .competence {
+  padding-right: 5px;
+  border-right: 3px solid #428bca; }
+.content .main-content .modal-header {
+  font-size: 13px; }
+.content .main-content .modal-body {
+  text-align: center;
+  font-size: 15px; }
+  .content .main-content .modal-body ul {
+    list-style: none; }
+    .content .main-content .modal-body ul li {
+      float: left;
+      margin: 20px; }
+
+/*# sourceMappingURL=users-change.css.map */
