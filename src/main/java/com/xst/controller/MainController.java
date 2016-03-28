@@ -34,6 +34,7 @@ public class MainController {
         for(UserEntity user:users){
             accessPassword = user.getPassword();
             if(user.getAuthority()==1){
+                model.addAttribute("user",user.getUserName());
                 return "v3.6admin/admin/index";
             }
         }

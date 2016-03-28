@@ -33,4 +33,15 @@ public class MainDao extends BaseDao {
     public UserEntity getUserById(int uid){
         return get(UserEntity.class,uid);
     }
+    public List<UserEntity> queryAll(){
+        String hql = "from UserEntity as resources ";
+        Query query = query(hql);
+        List<UserEntity> users = query.list();
+
+        return users;
+    }
+    public void setAuth(String username){
+        String hql =  "update UserEntity  user set user.authority = 1 where user.userName = '"+username+"'";
+        Query query = query(hql);
+    }
 }

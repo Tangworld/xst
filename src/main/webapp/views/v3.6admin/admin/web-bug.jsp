@@ -189,39 +189,39 @@
             <tr>
                 <td>1</td>
                 <td>途牛</td>
-                <td>www.tuniu.com</td>
+                <td>http://www.tuniu.com/</td>
                 <td>
                     <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
                 </td>
             </tr>
             <tr>
                 <td>2</td>
-                <td>途牛</td>
-                <td>www.tuniu.com</td>
+                <td>携程</td>
+                <td>http://www.ctrip.com/</td>
                 <td>
                     <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
                 </td>
             </tr>
             <tr>
                 <td>3</td>
-                <td>途牛</td>
-                <td>www.tuniu.com</td>
+                <td>同程</td>
+                <td>http://www.ly.com/</td>
                 <td>
                     <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
                 </td>
             </tr>
             <tr>
                 <td>4</td>
-                <td>途牛</td>
-                <td>www.tuniu.com</td>
+                <td>去哪儿</td>
+                <td>http://www.qunar.com/</td>
                 <td>
                     <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
                 </td>
             </tr>
             <tr>
                 <td>5</td>
-                <td>途牛</td>
-                <td>www.tuniu.com</td>
+                <td>驴妈妈</td>
+                <td>http://www.lvmama.com/</td>
                 <td>
                     <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
                 </td>

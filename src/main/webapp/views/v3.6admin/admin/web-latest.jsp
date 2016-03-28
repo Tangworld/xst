@@ -170,7 +170,7 @@
             <tr>
                 <th>#</th>
                 <th>时间</th>
-                <th>操作员</th>
+                <th>爬取的网站</th>
                 <th>日志</th>
                 <th style="width: 3.5em;"></th>
             </tr>
@@ -178,43 +178,43 @@
             <tbody>
             <tr>
                 <td>1</td>
-                <td>2016-02-02</td>
-                <td>xuzhao***</td>
+                <td>2015-12-09</td>
+                <td>www.tuniu.com</td>
                 <td><a href="#">查看</a></td>
                 <td>
                     <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
                 </td>
             </tr>
             <tr>
-                <td>1</td>
-                <td>2016-02-02</td>
-                <td>xuzhao***</td>
+                <td>2</td>
+                <td>2016-01-15</td>
+                <td>www.tuniu.com</td>
                 <td><a href="#">查看</a></td>
                 <td>
                     <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
                 </td>
             </tr>
             <tr>
-                <td>1</td>
+                <td>3</td>
                 <td>2016-02-02</td>
-                <td>xuzhao***</td>
+                <td>www.ctrip.com</td>
                 <td><a href="#">查看</a></td>
                 <td>
                     <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
                 </td>
             </tr><tr>
-                <td>1</td>
-                <td>2016-02-02</td>
-                <td>xuzhao***</td>
+                <td>4</td>
+                <td>2016-02-03</td>
+                <td>www.ly.com</td>
                 <td><a href="#">查看</a></td>
                 <td>
                     <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
                 </td>
             </tr>
             <tr>
-                <td>1</td>
-                <td>2016-02-02</td>
-                <td>xuzhao***</td>
+                <td>5</td>
+                <td>2016-03-01</td>
+                <td>www.ctrip.com</td>
                 <td><a href="#">查看</a></td>
                 <td>
                     <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>

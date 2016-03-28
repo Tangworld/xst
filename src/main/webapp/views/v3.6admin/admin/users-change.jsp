@@ -11,20 +11,20 @@
     <meta name="author" content="">
 
     <link href='http://fonts.useso.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link rel="stylesheet" type="text/css" href="lib/bootstrap/css/bootstrap.css">
-    <link rel="stylesheet" href="lib/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="/views/v3.6admin/admin/lib/bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="/views/v3.6admin/admin/lib/font-awesome/css/font-awesome.css">
 
-    <script src="lib/jquery-1.11.1.min.js" type="text/javascript"></script>
+    <script src="/views/v3.6admin/admin/lib/jquery-1.11.1.min.js" type="text/javascript"></script>
 
 
 
-    <link rel="stylesheet" type="text/css" href="stylesheets/theme.css">
-    <link rel="stylesheet" type="text/css" href="stylesheets/premium.css">
-    <link rel="stylesheet" href="css/users-change.css"/>
+    <link rel="stylesheet" type="text/css" href="/views/v3.6admin/admin/stylesheets/theme.css">
+    <link rel="stylesheet" type="text/css" href="/views/v3.6admin/admin/stylesheets/premium.css">
+    <link rel="stylesheet" href="/views/v3.6admin/admin/css/users-change.css"/>
 
     <!--bootstrap选框插件增强-->
-    <link rel="stylesheet" href="css/square/blue.css"/>
-    <script src="js/icheck.js"></script>
+    <link rel="stylesheet" href="/views/v3.6admin/admin/css/square/blue.css"/>
+    <script src="/views/v3.6admin/admin/js/icheck.js"></script>
 </head>
 <body class=" theme-blue">
 
@@ -71,11 +71,11 @@
 <![endif]-->
 
 <!-- Le fav and touch icons -->
-<link rel="shortcut icon" href="../assets/ico/favicon.ico">
-<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">
-<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">
-<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">
+<%--<link rel="shortcut icon" href="../assets/ico/favicon.ico">--%>
+<%--<link rel="apple-touch-icon-precomposed" sizes="144x144" href="../assets/ico/apple-touch-icon-144-precomposed.png">--%>
+<%--<link rel="apple-touch-icon-precomposed" sizes="114x114" href="../assets/ico/apple-touch-icon-114-precomposed.png">--%>
+<%--<link rel="apple-touch-icon-precomposed" sizes="72x72" href="../assets/ico/apple-touch-icon-72-precomposed.png">--%>
+<%--<link rel="apple-touch-icon-precomposed" href="../assets/ico/apple-touch-icon-57-precomposed.png">--%>
 
 
 <!--[if lt IE 7 ]> <body class="ie ie6"> <![endif]-->
@@ -97,7 +97,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="" href="index.jsp"><span class="navbar-brand"><span class="fa fa-cloud"></span> MagicCloud</span></a>
+        <a class="" href="/views/v3.6admin/admin/index.jsp"><span class="navbar-brand"><span class="fa fa-cloud"></span> MagicCloud</span></a>
     </div>
 
     <div class="navbar-collapse collapse" style="height: 1px;">
@@ -130,7 +130,7 @@
 --------------------->
 <div class="sidebar-nav">
     <ul>
-        <li><a href="index.jsp" class="nav-header"><i
+        <li><a href="/views/v3.6admin/admin/index.jsp" class="nav-header"><i
                 class="fa fa-desktop"></i> 集群监控</a></li>
         <ul><li></li></ul>
 
@@ -139,9 +139,9 @@
 
         <li>
             <ul class="dashboard-menu2 nav nav-list collapse">
-                <li><a href="web-latest.jsp"><span class="fa fa-caret-right"></span> 最近一次运行</a></li>
-                <li><a href="web-parameter.jsp"><span class="fa fa-caret-right"></span> 爬取参数设置</a></li>
-                <li><a href="web-bug.jsp"><span class="fa fa-caret-right"></span> 爬取站点设置</a></li>
+                <li><a href="/views/v3.6admin/admin/web-latest.jsp"><span class="fa fa-caret-right"></span> 最近一次运行</a></li>
+                <li><a href="/views/v3.6admin/admin/web-parameter.jsp"><span class="fa fa-caret-right"></span> 爬取参数设置</a></li>
+                <li><a href="/views/v3.6admin/admin/web-bug.jsp"><span class="fa fa-caret-right"></span> 爬取站点设置</a></li>
             </ul>
         </li>
 
@@ -149,7 +149,7 @@
                 class="fa fa-fw fa-group"></i> 用户管理<i class="fa fa-collapse"></i></a></li>
         <li>
             <ul class="dashboard-menu3 nav nav-list collapse">
-                <li><a href="users-change.jsp"><span class="fa fa-caret-right"></span>用户基本信息</a></li>
+                <li><a href="/views/v3.6admin/admin/users-change.jsp"><span class="fa fa-caret-right"></span>用户基本信息</a></li>
             </ul>
         </li>
 
@@ -166,7 +166,7 @@
 
         <h1 class="page-title">用户操作</h1>
         <ul class="breadcrumb">
-            <li><a href="index.jsp">Home</a> </li>
+            <li><a href="/views/v3.6admin/admin/index.jsp">Home</a> </li>
             <li class="active">Operator</li>
         </ul>
 
@@ -174,7 +174,9 @@
     <div class="main-content">
 
         <div class="btn-toolbar list-toolbar">
-            <button class="btn btn-primary"><i class="fa fa-plus"></i>  添加用户</button>
+            <form action="${pageContext.request.contextPath}/user/queryall" method="post"><input class="btn btn-primary" type="submit" value="更新"></form><br>
+            <%--<button class="btn btn-primary"><i class="fa fa-plus"></i>  添加用户</button>--%>
+
             <button class="btn btn-default">导入</button>
             <button class="btn btn-default">导出</button>
             <div class="btn-group">
@@ -191,56 +193,62 @@
             </tr>
             </thead>
             <tbody>
+            <c:forEach items="${users}" var="u">
             <tr>
-                <td>1</td>
-                <td>gaowu9595</td>
-                <td>gaowu9595@163.com</td>
-                <td>普通用户</td>
+                <td>${u.uid}</td>
+                <td>${u.userName}</td>
+                <td>${u.email}</td>
+                <td><c:if test="${u.authority==1}">管理员</c:if><c:if test="${u.authority==0}">普通用户</c:if></td>
                 <td>
-                    <a href="#Competence-Modal" class="competence" data-toggle="modal">修改权限</a>
+                    <form action="${pageContext.request.contextPath}/user/set" method="post">
+                        <input type="hidden" name="setauth" value="${u.userName}">
+                        <input type="submit" class="competence" value="修改权限">
+                    </form>
+                    <%--<a href="#Competence-Modal" class="competence" data-toggle="modal">修改权限</a>--%>
                     <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
                 </td>
             </tr>
-            <tr>
-                <td>1</td>
-                <td>gaowu9595</td>
-                <td>gaowu9595@163.com</td>
-                <td>普通用户</td>
-                <td>
-                    <a href="#Competence-Modal" class="competence" data-toggle="modal">修改权限</a>
-                    <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
-                </td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>gaowu9595</td>
-                <td>gaowu9595@163.com</td>
-                <td>普通用户</td>
-                <td>
-                    <a href="#Competence-Modal" class="competence" data-toggle="modal">修改权限</a>
-                    <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
-                </td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>gaowu9595</td>
-                <td>gaowu9595@163.com</td>
-                <td>普通用户</td>
-                <td>
-                    <a href="#Competence-Modal" class="competence" data-toggle="modal">修改权限</a>
-                    <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
-                </td>
-            </tr>
-            <tr>
-                <td>1</td>
-                <td>gaowu9595</td>
-                <td>gaowu9595@163.com</td>
-                <td>普通用户</td>
-                <td>
-                    <a href="#Competence-Modal" class="competence" data-toggle="modal">修改权限</a>
-                    <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
-                </td>
-            </tr>
+            </c:forEach>
+            <%--<tr>--%>
+                <%--<td>1</td>--%>
+                <%--<td>gaowu9595</td>--%>
+                <%--<td>gaowu9595@163.com</td>--%>
+                <%--<td>普通用户</td>--%>
+                <%--<td>--%>
+                    <%--<a href="#Competence-Modal" class="competence" data-toggle="modal">修改权限</a>--%>
+                    <%--<a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>--%>
+                <%--</td>--%>
+            <%--</tr>--%>
+            <%--<tr>--%>
+                <%--<td>1</td>--%>
+                <%--<td>gaowu9595</td>--%>
+                <%--<td>gaowu9595@163.com</td>--%>
+                <%--<td>普通用户</td>--%>
+                <%--<td>--%>
+                    <%--<a href="#Competence-Modal" class="competence" data-toggle="modal">修改权限</a>--%>
+                    <%--<a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>--%>
+                <%--</td>--%>
+            <%--</tr>--%>
+            <%--<tr>--%>
+                <%--<td>1</td>--%>
+                <%--<td>gaowu9595</td>--%>
+                <%--<td>gaowu9595@163.com</td>--%>
+                <%--<td>普通用户</td>--%>
+                <%--<td>--%>
+                    <%--<a href="#Competence-Modal" class="competence" data-toggle="modal">修改权限</a>--%>
+                    <%--<a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>--%>
+                <%--</td>--%>
+            <%--</tr>--%>
+            <%--<tr>--%>
+                <%--<td>1</td>--%>
+                <%--<td>gaowu9595</td>--%>
+                <%--<td>gaowu9595@163.com</td>--%>
+                <%--<td>普通用户</td>--%>
+                <%--<td>--%>
+                    <%--<a href="#Competence-Modal" class="competence" data-toggle="modal">修改权限</a>--%>
+                    <%--<a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>--%>
+                <%--</td>--%>
+            <%--</tr>--%>
 
             </tbody>
         </table>
@@ -273,17 +281,19 @@
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">×</button>
                         <h2 class="myModalLabel">消息</h2>
                     </div>
+                    <form action="${pageContext.request.contextPath}/user/set" method="post">
                     <div class="modal-body">
                         <ul>
-                            <li><input type="radio" name="iCheck" check="checked"/><span>管理员权限</span></li>
-                            <li><input type="radio" name="iCheck"/><span>普通权限</span></li>
+                            <li><input type="text" name="iCheck" check="checked" value="管理员权限"/><span></span></li>
+                            <%--<li><input type="radio" name="iCheck"/><span>普通权限</span></li>--%>
                             <div class="clearfix"></div>
                         </ul>
                     </div>
                     <div class="modal-footer">
                         <button class="btn btn-default" data-dismiss="modal" aria-hidden="true">取消</button>
-                        <button class="btn btn-default" data-dismiss="modal">确定</button>
+                        <input type="submit" class="btn btn-default" data-dismiss="modal" value="确定">
                     </div>
+                    </form>
                 </div>
             </div>
         </div>
@@ -316,7 +326,7 @@
 </div>
 
 
-<script src="lib/bootstrap/js/bootstrap.js"></script>
+<script src="/views/v3.6admin/admin/lib/bootstrap/js/bootstrap.js"></script>
 <script type="text/javascript">
     $("[rel=tooltip]").tooltip();
     $(function() {
