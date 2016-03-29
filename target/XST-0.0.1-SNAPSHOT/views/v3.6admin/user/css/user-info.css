@@ -1,0 +1,12 @@
+.content .main-content .user-img {
+  text-align: center; }
+  .content .main-content .user-img .btn {
+    margin-top: 10px; }
+.content .main-content .user-info {
+  font-size: 15px; }
+  .content .main-content .user-info div {
+    margin: 10px; }
+  .content .main-content .user-info span {
+    margin: 10px; }
+
+/*# sourceMappingURL=user-info.css.map */

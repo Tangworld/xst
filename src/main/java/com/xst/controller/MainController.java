@@ -5,6 +5,7 @@ import com.xst.bean.UserEntity;
 import com.xst.dao.MainDao;
 import com.xst.dao.ResourcesDao;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.mock.web.MockHttpSession;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
@@ -35,6 +36,7 @@ public class MainController {
             accessPassword = user.getPassword();
             if(user.getAuthority()==1){
                 model.addAttribute("user",user.getUserName());
+//                httpsession.setAttribute("user",user.getUserName());
                 return "v3.6admin/admin/index";
             }
         }
@@ -51,6 +53,7 @@ public class MainController {
         mainDao.saveUser(registusername, registpassword, registemail);
         System.out.println(registusername);
         model.addAttribute("user",registusername);
+        model.addAttribute("abc","用户中心");
         return "v3.6admin/index";
     }
 

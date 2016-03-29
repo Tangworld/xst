@@ -108,11 +108,11 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-2">
-                        <h1 class="logo_head">
+                        <%--<h1 class="logo_head">--%>
                             <!--<a href="index.jsp">Make Each Day Count</a>-->
-                            <a href="index.jsp">MagicCloud</a>
+                            <a href="index.jsp" style="font-size:40px;line-height:80px;">MagicCloud</a>&nbsp;&nbsp;&nbsp;&nbsp;
                             <!--<p>Magic Cloud</p>-->
-                        </h1>
+                        <%--</h1>--%>
                     </div>
                     <div class="col-md-6" style="padding-top: 20px">
                         <form class="form-inline" action="${pageContext.request.contextPath}/main/search" method="post">
@@ -147,7 +147,7 @@
         <script>
 //            alert($("#nav-login").text());
             if($("#nav-login").text().trim()=="${user}"){
-                $("#nav-login").attr("onclick","window.location.href='views/v3.6admin/result.jsp'");
+                $("#nav-login").attr("onclick","window.location.href='/views/v3.6admin/user/user-do.jsp'");
             }
         </script>
 
@@ -1555,7 +1555,7 @@
 
                             <p>
 
-                            <div class="message"><strong>#春节在路上# 5日4晚，陶醉在北国的冰雪童话世界里</strong></div>
+                            <div class="message"><strong>#春节在路上# 北国世界，让人陶醉</strong></div>
                             <div class="price"></div>
                             </p>
                         </div>
@@ -1594,7 +1594,7 @@
 
                             <p>
 
-                            <div class="message"><strong>西安旅游攻略宝典~已更新~信息量较大~</strong></div>
+                            <div class="message"><strong>西安旅游攻略宝典~信息量较大~</strong></div>
                             <div class="price"></div>
                             </p>
                         </div>

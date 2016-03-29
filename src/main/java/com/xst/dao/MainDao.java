@@ -43,5 +43,6 @@ public class MainDao extends BaseDao {
     public void setAuth(String username){
         String hql =  "update UserEntity  user set user.authority = 1 where user.userName = '"+username+"'";
         Query query = query(hql);
+        query.executeUpdate();
     }
 }

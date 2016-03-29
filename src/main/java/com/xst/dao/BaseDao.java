@@ -3,10 +3,7 @@ package com.xst.dao;
 import java.io.Serializable;
 import java.util.List;
 
-import org.hibernate.Query;
-import org.hibernate.SQLQuery;
-import org.hibernate.Session;
-import org.hibernate.SessionFactory;
+import org.hibernate.*;
 import org.springframework.beans.factory.annotation.Autowired;
 
 /**
@@ -36,7 +33,10 @@ public class BaseDao {
 	 * @param object 需要保存的对象
 	 */
 	public void save(Object object){
-		getSession().save(object);
+		Session session = getSession();
+		Transaction tran = session.beginTransaction();//开始事务
+		session.save(object);
+		tran.commit();
 	}
 	
 	/**

@@ -22,7 +22,9 @@ body a:hover {
         text-align: center; }
     #special .special-left .special-left-down {
       flex: 8;
-      background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg"); }
+      /*background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg"); */
+      background-image: url("/views/v3.6admin/images/travel/04.jpeg");
+    }
   #special .special-right {
     flex: 8;
     height: inherit;
@@ -69,7 +71,8 @@ body a:hover {
         text-align: center; }
     #domestic .special .special-left .special-left-down {
       flex: 8;
-      background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg"); }
+      /*background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg");*/
+      background-image: url("/views/v3.6admin/images/travel/18.jpg");}
   #domestic .special .special-right {
     flex: 8;
     height: inherit;
@@ -115,7 +118,8 @@ body a:hover {
         text-align: center; }
     #world .special .special-left .special-left-down {
       flex: 8;
-      background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg"); }
+      /*background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg");*/
+      background-image: url("/views/v3.6admin/images/travel/19.jpg");}
   #world .special .special-right {
     flex: 8;
     height: inherit;
@@ -162,7 +166,8 @@ body a:hover {
         text-align: center; }
     #around .special-left .special-left-down {
       flex: 8;
-      background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg"); }
+      /*background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg");*/
+      background-image: url("/views/v3.6admin/images/travel/25.jpg");}
   #around .special-right {
     flex: 8;
     height: inherit;
@@ -211,7 +216,8 @@ body a:hover {
         text-align: center; }
     #travel-article .special-left .special-left-down {
       flex: 8;
-      background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg"); }
+      /*background-image: url("http://img3.tuniucdn.com/u/mainpic/qukuai/915481/cjdc__0111.jpg");*/
+      background-image: url("/views/v3.6admin/images/travel/14.jpg");}
   #travel-article .special-right {
     flex: 8;
     height: inherit;
