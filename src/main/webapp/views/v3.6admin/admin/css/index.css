@@ -1,4 +1,27 @@
-.content .main-content #cluster-use {
-  margin-left: 20px; }
+.content .main-content .header-map {
+  font-size: 16px;
+  color: #d5d5d5;
+  border-bottom: 1px solid #d5d5d5;
+  margin-bottom: 10px;
+  padding: 10px; }
+  .content .main-content .header-map button {
+    font-size: 25px; }
+.content .main-content .access {
+  border: 2px solid #EEEEEE; }
+.content .main-content .node {
+  margin-top: 20px;
+  border: 2px solid #EEEEEE; }
+.content .main-content .memory {
+  margin-top: 20px;
+  height: 310px; }
+  .content .main-content .memory .memory-word {
+    height: 310px;
+    border: 2px solid #EEEEEE; }
+  .content .main-content .memory .memory-map {
+    width: 48%;
+    border: 2px solid #EEEEEE; }
+    .content .main-content .memory .memory-map .main #cluster-use {
+      display: block;
+      margin: 0 auto; }
 
 /*# sourceMappingURL=index.css.map */

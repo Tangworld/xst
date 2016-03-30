@@ -7,8 +7,51 @@
 
   }
   .main-content{
-    #cluster-use{
-      margin-left: 20px;
+    :only-child{
+      //padding: 10px;
     }
+    .header-map{
+      font-size: 16px;
+      color: darken(#EEEEEE,10%);
+      border-bottom: 1px solid darken(#EEEEEE,10%);
+      margin-bottom: 10px;
+      padding: 10px;
+      button{
+        font-size: 25px;
+      }
+    }
+
+    .access{
+      border: 2px solid #EEEEEE;
+      #access{
+        //height: 300px;
+      }
+    }
+
+    .node{
+      margin-top: 20px;
+      border: 2px solid #EEEEEE;
+    }
+
+    .memory{
+      margin-top: 20px;
+      height: 310px;
+      .memory-word{
+        height: 310px;
+        border: 2px solid #EEEEEE;
+
+      }
+      .memory-map{
+        width: 48%;
+        border: 2px solid #EEEEEE;
+        .main{
+            #cluster-use{
+              display: block;
+              margin:0 auto;
+            }
+        }
+      }
+    }
+
   }
 }

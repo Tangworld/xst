@@ -498,6 +498,7 @@ a.panel-heading:hover,
   border-radius: 3px;
 }
 .btn-primary {
+  display: inline-block;
   background-color: #414959;
   background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#4c5568), to(#414959));
   border: 1px solid #363d4a;

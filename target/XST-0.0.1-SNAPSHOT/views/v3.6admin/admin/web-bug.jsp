@@ -95,15 +95,19 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
         </button>
-        <a class="" href="index.html"><span class="navbar-brand"><span class="fa fa-cloud"></span> MagicCloud</span></a>
+        <a class="" href="index.jsp"><span class="navbar-brand"><span class="fa fa-cloud"></span> MagicCloud</span></a>
     </div>
 
     <div class="navbar-collapse collapse" style="height: 1px;">
         <ul id="main-menu" class="nav navbar-nav navbar-right">
+            <li><a id="returnhome" href="javascript:void(0)" onclick="openLogin()">主页</a></li>
+            <script>
+                $("#returnhome").attr("onclick","window.location.href='/views/v3.6admin/index.jsp'");
+            </script>
             <li class="dropdown hidden-xs">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <span class="glyphicon glyphicon-user padding-right-small"
-                          style="position:relative;top: 3px;"></span> xuzhao***.com
+                          style="position:relative;top: 3px;"></span> ${user}
                     <i class="fa fa-caret-down"></i>
                 </a>
 
@@ -172,7 +176,7 @@
     <div class="main-content">
 
         <div class="btn-toolbar list-toolbar">
-            <form action="${pageContext.request.contextPath}/admin/queryall" method="post"><input type="submit" value="更新"></form>
+            <form action="${pageContext.request.contextPath}/admin/queryall"  method="post" style="display: inline-block"><input class="btn btn-primary" type="submit" value="更新"></form>
             <button class="btn btn-primary" href="#newWeb-Modal"  role="button" data-toggle="modal"><i class="fa fa-plus"></i>  添加新站点</button>
             <button class="btn btn-default">导入</button>
             <button class="btn btn-default">导出</button>
@@ -198,7 +202,7 @@
                     <form action="${pageContext.request.contextPath}/admin/delete" method="post" >
                         <input type="hidden" name="deletename" value="${w.webname}">
                         <input type="hidden" name="deleteurl" value="${w.url}">
-                        <input type="submit" value="删除">
+                        <input type="submit" class="btn btn-primary" value="删除">
                     </form>
                     <%--<a href="#webChange-Modal" role="button" data-toggle="modal" class="change">修改</a><a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>--%>
                 </td>

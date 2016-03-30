@@ -5,12 +5,16 @@ import com.xst.bean.UserEntity;
 import com.xst.dao.MainDao;
 import com.xst.dao.ResourcesDao;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.mock.web.MockHttpSession;
+import javax.servlet.http.HttpServletRequest;
+import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
+
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
 
@@ -29,42 +33,69 @@ public class MainController {
     private ResourcesDao resourcesDao;
 
     @RequestMapping(value = "/login" , method = RequestMethod.POST)
-    public String login(Model model,@RequestParam String username,@RequestParam String password){
+    public String login(HttpServletRequest request,HttpServletResponse response,@RequestParam String username,@RequestParam String password){
         String accessPassword = new String();
+        HttpSession session = request.getSession();
         List<UserEntity> users= mainDao.queryByName(username);
         for(UserEntity user:users){
             accessPassword = user.getPassword();
             if(user.getAuthority()==1){
-                model.addAttribute("user",user.getUserName());
+                session.setAttribute("user",user.getUserName());
+//                model.addAttribute("user",user.getUserName());
 //                httpsession.setAttribute("user",user.getUserName());
                 return "v3.6admin/admin/index";
             }
         }
         if(accessPassword.equals(password)){
-            model.addAttribute("user",username);
-
-            model.addAttribute("abc","用户中心");
+            session.setAttribute("user",username);
+//            model.addAttribute("user",username);
+            session.setAttribute("abc","用户中心");
+//            model.addAttribute("abc","用户中心");
         }
         return "v3.6admin/index";
     }
 
     @RequestMapping(value = "/regist" , method = RequestMethod.POST)
-    public String regist(Model model,@RequestParam String registusername,@RequestParam String registpassword,@RequestParam String registemail){
+    public String regist(HttpServletRequest request,HttpServletResponse response,@RequestParam String registusername,@RequestParam String registpassword,@RequestParam String registemail){
+        HttpSession session = request.getSession();
         mainDao.saveUser(registusername, registpassword, registemail);
         System.out.println(registusername);
-        model.addAttribute("user",registusername);
-        model.addAttribute("abc","用户中心");
+        session.setAttribute("user",registusername);
+        session.setAttribute("abc","用户中心");
+//        model.addAttribute("user",registusername);
+//        model.addAttribute("abc","用户中心");
         return "v3.6admin/index";
     }
 
     @RequestMapping(value = "/search" , method = RequestMethod.POST)
-    public String search(Model model,@RequestParam String endcity){
+    public ModelAndView search(HttpServletRequest request,HttpServletResponse response,@RequestParam String endcity){
+        HttpSession session = request.getSession();
         System.out.println(endcity);
         List<ResourcesEntity> list =  resourcesDao.getByStartEndCity(1,5,"南京",endcity).getList();
-        model.addAttribute("list",list);
-        model.addAttribute("startcity","南京");
-        model.addAttribute("endcity",endcity);
-        return "v3.6admin/result";
+        session.setAttribute("list",list);
+        session.setAttribute("startcity","南京");
+        session.setAttribute("endcity",endcity);
+//        model.addAttribute("list",list);
+//        model.addAttribute("startcity","南京");
+//        model.addAttribute("endcity",endcity);
+        return new ModelAndView("redirect:/views/v3.6admin/result.jsp");
+//        return "v3.6admin/result";
+    }
+
+    @RequestMapping(value = "/dispath" , method = RequestMethod.GET)
+    public String dispath(){
+        return "v3.6admin/user/user-info";
+    }
+
+    @RequestMapping(value = "/home" , method = RequestMethod.GET)
+    public String home(){
+        return "v3.6admin/index";
+    }
+
+    @RequestMapping(value = "/logout" , method = RequestMethod.GET)
+    public String logout(HttpServletRequest request){
+        request.getSession().invalidate();
+        return "v3.6admin/index";
     }
 
 }

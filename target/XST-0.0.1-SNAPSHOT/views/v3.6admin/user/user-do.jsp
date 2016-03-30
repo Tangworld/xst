@@ -102,6 +102,10 @@
 
     <div class="navbar-collapse collapse" style="height: 1px;">
         <ul id="main-menu" class="nav navbar-nav navbar-right">
+            <li><a id="returnhome" href="javascript:void(0)" onclick="openLogin()">主页</a></li>
+            <script>
+                $("#returnhome").attr("onclick","window.location.href='/views/v3.6admin/index.jsp'");
+            </script>
             <li class="dropdown hidden-xs">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <span class="glyphicon glyphicon-user padding-right-small"
@@ -175,47 +179,47 @@
                 <tbody>
                 <tr>
                     <td>1</td>
-                    <td>2016-02-12</td>
+                    <td>2016-03-30</td>
                     <td>途牛网</td>
-                    <td>南京-北京</td>
+                    <td>南京-厦门</td>
                     <td>
-                        <a href="">西安兵马俑+华清池4日3晚半自助游·索菲特立减-1000元/单+9元换购市内游</a>
+                        <a href=""><南京出发-厦门-4日3晚自由行套餐>厦门同名客栈（原厦门爱在台北客栈）3晚+2程飞机</a>
                     </td>
                 </tr>
                 <tr>
                     <td>2</td>
-                    <td>2016-02-12</td>
-                    <td>途牛网</td>
-                    <td>南京-北京</td>
+                    <td>2016-03-30</td>
+                    <td>携程网</td>
+                    <td>南京-厦门</td>
                     <td>
-                        <a href="">西安兵马俑+华清池4日3晚半自助游·索菲特立减-1000元/单+9元换购市内游</a>
+                        <a href="">厦门+鼓浪屿+福建土楼4日3晚跟团游(3钻)·销冠特卖汇 1晚可升超5星 精华全含 超值赠</a>
                     </td>
                 </tr>
                 <tr>
                     <td>3</td>
-                    <td>2016-02-12</td>
-                    <td>途牛网</td>
-                    <td>南京-北京</td>
+                    <td>2016-03-30</td>
+                    <td>携程网</td>
+                    <td>南京-厦门</td>
                     <td>
-                        <a href="">西安兵马俑+华清池4日3晚半自助游·索菲特立减-1000元/单+9元换购市内游</a>
+                        <a href="">武夷山+厦门+鼓浪屿4日3晚半自助游(4钻)·厦进武出 山水连线 自由度高 赠贝壳世界</a>
                     </td>
                 </tr>
                 <tr>
                     <td>4</td>
-                    <td>2016-02-12</td>
-                    <td>途牛网</td>
-                    <td>南京-北京</td>
+                    <td>2016-03-30</td>
+                    <td>驴妈妈网</td>
+                    <td>北京-西安</td>
                     <td>
-                        <a href="">西安兵马俑+华清池4日3晚半自助游·索菲特立减-1000元/单+9元换购市内游</a>
+                        <a href="">【梦回盛唐】西安兵马俑、华清池、大雁塔广场、永兴坊特产美食街卧高2晚3日游—纯玩无购物，畅心出游</a>
                     </td>
                 </tr>
                 <tr>
                     <td>5</td>
-                    <td>2016-02-12</td>
-                    <td>途牛网</td>
-                    <td>南京-北京</td>
+                    <td>2016-03-30</td>
+                    <td>携程网</td>
+                    <td>北京-西安</td>
                     <td>
-                        <a href="">西安兵马俑+华清池4日3晚半自助游·索菲特立减-1000元/单+9元换购市内游</a>
+                        <a href="">西安兵马俑+华清池3日2晚跟团游(2钻)·双高 酒店可升级.大唐盛世.精华之旅</a>
                     </td>
                 </tr>
 

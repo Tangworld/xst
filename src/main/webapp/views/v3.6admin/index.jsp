@@ -135,7 +135,8 @@
                                 <li><a id="nav-login" href="javascript:void(0)" onclick="openLogin()"><c:if test="${abc ==null}">登录</c:if>
                                                                                         <c:if test="${abc!=null}">${user} </c:if> </a></li>
                                 <!--<li><a href="#" onclick="window.location.href='regist.jsp'">注册</a></li>-->
-                                <li><a href="javascript:void(0)" onclick="openRegister()">注册</a></li>
+                                <li><a id="logout" href="javascript:void(0)" onclick="openRegister()"><c:if test="${user ==null}">注册</c:if>
+                                                                                     <c:if test="${user!=null}">注销 </c:if> </a></li>
                             </ul>
                         </nav>
                     </div>
@@ -147,7 +148,8 @@
         <script>
 //            alert($("#nav-login").text());
             if($("#nav-login").text().trim()=="${user}"){
-                $("#nav-login").attr("onclick","window.location.href='/views/v3.6admin/user/user-do.jsp'");
+                $("#nav-login").attr("onclick","window.location.href='/views/v3.6admin/user/user-info.jsp'");
+                $("#logout").attr("onclick","window.location.href='${pageContext.request.contextPath}/main/logout'");
             }
         </script>
 
@@ -460,10 +462,10 @@
 
                             <div class="message"><strong>桂林+漓江+阳朔+龙脊梯田5日4晚跟团游(4钻)·独家竹筏 金牌0自费 携程放心全景游...</strong>
                             </div>
-                            <div class="price">￥2209起</div>
+                            <div class="price">￥1945起</div>
                             </p>
                         </div>
-                        <div class="col-sm-6 col-md-4 thumbnail">
+                        <div class="col-sm-6 col-md-4 thumbnail" style="height: 250px;">
                             <a href="http://www.tuniu.com/tours/210054040#source=bb"><img
                                     class="img-thumbnail" alt="140x140"
                                     src="/views/v3.6admin/images/travel/xc-1-03.jpg"
@@ -471,13 +473,13 @@
 
                             <p>
 
-                            <div class="message"><strong>三亚亚龙湾5日自由行(5钻)·豪华酒店4晚连住</strong></div>
+                            <div class="message"><strong>三亚亚龙湾5日自由行(5钻)·豪华酒店4晚连住<br></strong></div><br>
                             <div class="price">￥2208起</div>
                             </p>
                         </div>
                     </div>
                     <div class="row">
-                        <div class="col-sm-6 col-md-4 thumbnail">
+                        <div class="col-sm-6 col-md-4 thumbnail" style="height: 230px;">
                             <a href="http://www.tuniu.com/tours/210052821"><img
                                     class="img-thumbnail" alt="140x140"
                                     src="/views/v3.6admin/images/travel/xc-1-04.jpg"
@@ -489,19 +491,18 @@
                             <div class="price">￥680起</div>
                             </p>
                         </div>
-                        <div class="col-sm-6 col-md-4 thumbnail">
+                        <div class="col-sm-6 col-md-4 thumbnail" style="height: 230px;">
                             <a href="http://www.tuniu.com/tours/210049828#source=bb"><img
                                     class="img-thumbnail" alt="140x140"
                                     src="/views/v3.6admin/images/travel/xc-1-05.jpg"
                                     style="height: 150px;width: 270px "/></a>
 
                             <p>
-
-                            <div class="message"><strong>成都+九寨沟+黄龙6日5晚跟团游(4钻)·2进沟 2晚5星雪芽3晚温泉酒店 赠家访特卖汇</strong></div>
+                            <div class="message"><strong>成都+九寨沟+黄龙6日5晚跟团游(4钻)·2进沟...</strong></div>
                             <div class="price">￥2549起</div>
                             </p>
                         </div>
-                        <div class="col-sm-6 col-md-4 thumbnail">
+                        <div class="col-sm-6 col-md-4 thumbnail" style="height: 230px;">
                             <a href="http://www.tuniu.com/tours/210053885#source=bb"><img
                                     class="img-thumbnail" alt="140x140"
                                     src="/views/v3.6admin/images/travel/xc-1-06.jpg"
@@ -509,7 +510,7 @@
 
                             <p>
 
-                            <div class="message"><strong>武汉+长江三峡+重庆6日5晚跟团游(5钻)·双城记 汉渝印象+总统游轮 动去飞返</strong></div>
+                            <div class="message"><strong>武汉+长江三峡+重庆6日5晚跟团游(5钻)·双城记...</strong></div>
                             <div class="price">￥3655起</div>
                             </p>
                         </div>
@@ -583,7 +584,7 @@
                                                     <div class="price">￥2290起</div>
                                                     </p>
                                                 </div>
-                                                <div class="col-sm-6 col-md-4 thumbnail">
+                                                <div class="col-sm-6 col-md-4 thumbnail" style="height: 250px;">
                                                     <a href="http://vacations.ctrip.com/morelinetravel/p2530279s2.html"><img
                                                             class="img-thumbnail" alt="140x140"
                                                             src="/views/v3.6admin/images/travel/1domestic/north/3.jpg"
@@ -591,7 +592,7 @@
 
                                                     <p>
 
-                                                    <div class="message"><strong>北京5日4晚跟团游(5钻)·出游首选 轻奢之旅 高逼格国际5星 绝无暗店</strong></div>
+                                                    <div class="message"><strong>北京5日4晚跟团游(5钻)·出游首选 轻奢之旅 高逼格国际5星 绝无暗店</strong></div><br>
                                                     <div class="price">￥3228起</div>
                                                     </p>
                                                 </div>
@@ -618,7 +619,7 @@
 
                                                     <p>
 
-                                                    <div class="message"><strong><大连-东方水城-海之韵公园-棒棰岛-金石滩双飞5日游>0购物推荐，休闲游首选</strong></div>
+                                                    <div class="message"><strong><大连-东方水城-海之韵公园-棒棰岛-金石滩双飞5日游>0购物...</strong></div>
                                                     <div class="price">￥3599起</div>
                                                     </p>
                                                 </div>
@@ -1467,7 +1468,7 @@
 
                             <p>
 
-                            <div class="message"><strong>华东5市+乌镇6日5晚跟团游(3钻)·宿乌镇 1晚升5星&2晚4星 明星产品 上海进出</strong>
+                            <div class="message"><strong>华东5市+乌镇6日5晚跟团游(3钻)·宿乌镇 1晚升5星&2晚4星 明星产品...</strong>
                             </div>
                             <div class="price">￥849起</div>
                             </p>
@@ -1494,7 +1495,7 @@
 
                             <p>
 
-                            <div class="message"><strong>摄影之旅·南京2日1晚跟团游·【春暖花开、微风徐来】感受南京的独特韵味</strong></div>
+                            <div class="message"><strong>摄影之旅·南京2日1晚跟团游·【春暖花开、微风徐来】感受南京...</strong></div>
                             <div class="price">￥365起</div>
                             </p>
                         </div>
@@ -1506,7 +1507,7 @@
 
                             <p>
 
-                            <div class="message"><strong>南京+扬州+镇江3日2晚跟团游·南京中山陵+阅江楼+镇江南山+扬州瘦西湖</strong></div>
+                            <div class="message"><strong>南京+扬州+镇江3日2晚跟团游·南京中山陵+阅江楼+镇江南山+扬州...</strong></div>
                             <div class="price">￥388起</div>
                             </p>
                         </div>

@@ -2,27 +2,51 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="862a1962-084b-4f3e-b744-03da213ff07a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/images/travel/15.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/images/travel/16.jpg" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/images/travel/17.jpg" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-bug.jsp" afterPath="" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/classes/com/xst/dao/BaseDao.class" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/classes/com/xst/dao/BaseDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xst/dao/BaseDao.class" afterPath="$PROJECT_DIR$/target/classes/com/xst/dao/BaseDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/classes/com/xst/controller/MainController.class" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/classes/com/xst/controller/MainController.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xst/controller/MainController.class" afterPath="$PROJECT_DIR$/target/classes/com/xst/controller/MainController.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/classes/com/xst/dao/MainDao.class" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/classes/com/xst/dao/MainDao.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/xst/dao/MainDao.class" afterPath="$PROJECT_DIR$/target/classes/com/xst/dao/MainDao.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT.war" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT.war" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xst/dao/BaseDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/xst/dao/BaseDao.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java" afterPath="$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xst/dao/MainDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/xst/dao/MainDao.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/xst/controller/ResourcesController.java" afterPath="$PROJECT_DIR$/src/main/java/com/xst/controller/ResourcesController.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/XST.iml" afterPath="$PROJECT_DIR$/XST.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/artifacts/XST_war_exploded.xml" afterPath="$PROJECT_DIR$/.idea/artifacts/XST_war_exploded.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/font-awesome.css" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/css/font-awesome.css" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/css/font-awesome.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/css/index.css" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/css/index.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/css/index.css" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/css/index.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/index.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/index.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/index.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/index.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/myqd/special.css" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/myqd/special.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/css/myqd/special.css" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/css/myqd/special.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/myqd/special.scss" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/myqd/special.scss" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/css/myqd/special.scss" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/css/myqd/special.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/index.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/index.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/css/index.scss" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/css/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/css/index.scss" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/css/index.scss" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/result.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/result.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/stylesheets/theme.css" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/stylesheets/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/stylesheets/theme.css" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/stylesheets/theme.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-change.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-change.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/user/user-change.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/user/user-change.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-collection.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-collection.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/user/user-collection.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/user/user-collection.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-do.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-do.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/user/user-do.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/user/user-do.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-info.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-info.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/user/user-info.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/user/user-info.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-password.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-password.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/user/user-password.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/user/user-password.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/users-change.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/users-change.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/users-change.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/users-change.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-bug.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-bug.jsp" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/web-bug.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/web-bug.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-latest.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-latest.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/web-latest.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/web-latest.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-parameter.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-parameter.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/web-parameter.jsp" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/views/v3.6admin/admin/web-parameter.jsp" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/web.xml" afterPath="$PROJECT_DIR$/target/XST-0.0.1-SNAPSHOT/WEB-INF/web.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="XST.iws" />
@@ -49,13 +73,13 @@
       <file leaf-file-name="index.jsp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="1604" column="77" selection-start-line="1604" selection-start-column="77" selection-end-line="1604" selection-end-column="77" />
+            <state vertical-scroll-proportion="0.30769232">
+              <caret line="138" column="112" selection-start-line="138" selection-start-column="112" selection-end-line="138" selection-end-column="112" />
               <folding>
-                <marker date="1459244687384" expanded="false" signature="3350:3402" placeholder="..." />
-                <marker date="1459244687384" expanded="true" signature="3403:3828" placeholder="..." />
-                <marker date="1459244687384" expanded="true" signature="3522:3817" placeholder="..." />
-                <marker date="1459244687384" expanded="true" signature="3639:3804" placeholder="..." />
+                <marker date="1459348255602" expanded="false" signature="3350:3402" placeholder="..." />
+                <marker date="1459348255602" expanded="true" signature="3403:3828" placeholder="..." />
+                <marker date="1459348255602" expanded="true" signature="3522:3817" placeholder="..." />
+                <marker date="1459348255602" expanded="true" signature="3639:3804" placeholder="..." />
               </folding>
             </state>
           </provider>
@@ -65,7 +89,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
+              <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -73,53 +97,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AdminDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/AdminDao.java">
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/index.jsp">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+            <state vertical-scroll-proportion="-2.7666667">
+              <caret line="502" column="20" selection-start-line="502" selection-start-column="20" selection-end-line="502" selection-end-column="20" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="MainDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/MainDao.java">
+      <file leaf-file-name="Chart.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/js/Chart.js">
           <provider selected="true" editor-type-id="text-editor">
             <state vertical-scroll-proportion="0.0">
-              <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="BaseDao.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/BaseDao.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
+              <caret line="167" column="73" selection-start-line="167" selection-start-column="73" selection-end-line="167" selection-end-column="74" />
               <folding>
-                <element signature="e#361#362#0" expanded="true" />
-                <element signature="e#404#405#0" expanded="true" />
-                <element signature="e#487#488#0" expanded="true" />
-                <element signature="e#540#541#0" expanded="true" />
-                <element signature="e#834#835#0" expanded="true" />
-                <element signature="e#868#869#0" expanded="true" />
-                <element signature="e#956#957#0" expanded="true" />
-                <element signature="e#996#997#0" expanded="true" />
-                <element signature="e#1120#1121#0" expanded="true" />
-                <element signature="e#1166#1167#0" expanded="true" />
+                <marker date="1459078812008" expanded="true" signature="73249:73292" placeholder="..." />
+                <marker date="1459078812008" expanded="true" signature="83325:83368" placeholder="..." />
+                <marker date="1459078812008" expanded="true" signature="90135:90180" placeholder="..." />
+                <marker date="1459078812008" expanded="true" signature="102256:102299" placeholder="..." />
+                <marker date="1459078812008" expanded="true" signature="110152:110197" placeholder="..." />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="special.css" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/myqd/special.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="181" column="50" selection-start-line="181" selection-start-column="50" selection-end-line="181" selection-end-column="50" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -144,13 +143,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/xst/bean/UserEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xst/controller/IndexController.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/xst/test/controller/ResourcesControllerTest.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/xst/test/dao/MainDaoTest.java" />
-        <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/xst/dao/ResourcesDao.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xst/controller/ResourcesController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/admin/index.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/admin/calendar.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/admin/faq.html" />
@@ -163,13 +157,9 @@
         <option value="$PROJECT_DIR$/src/main/webapp/views/admin/web-latest.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/admin/web-parameter.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/admin/calendar.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/admin/js/Chart.js" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/admin/index.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/users-change.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/xst/controller/AdminUserController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-latest.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/index.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-change.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-collection.html" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-do.html" />
@@ -178,19 +168,31 @@
         <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-bug.html" />
         <option value="$PROJECT_DIR$/src/main/java/com/xst/dao/WebDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xst/bean/WebEntity.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-change.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-collection.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-do.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-info.jsp" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-password.jsp" />
         <option value="$PROJECT_DIR$/src/main/java/com/xst/dao/MainDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xst/dao/AdminDao.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/xst/controller/AdminController.java" />
-        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-bug.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/myqd/special.scss" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/xst/dao/BaseDao.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/myqd/special.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xst/dao/BaseDao.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/index.html" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/stylesheets/theme.css" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xst/controller/ResourcesController.java" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-info.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-change.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-collection.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-password.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/users-change.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-bug.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-latest.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-parameter.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-do.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/font-awesome.css" />
+        <option value="$PROJECT_DIR$/src/main/resources/conf/springmvc.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp" />
+        <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/index.jsp" />
+        <option value="$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp" />
       </list>
     </option>
@@ -298,6 +300,10 @@
               <option name="myItemId" value="webapp" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="WEB-INF" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
           </PATH>
           <PATH>
             <PATH_ELEMENT>
@@ -326,6 +332,78 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="v3.6admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XST" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v3.6admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XST" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="webapp" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="views" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="v3.6admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="admin" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="js" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -527,11 +605,41 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="XST" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="xst" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotations" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="Scratches" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -541,9 +649,12 @@
     <property name="recentsLimit" value="5" />
     <property name="FullScreen" value="false" />
     <property name="dynamic.classpath" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/css" />
+      <recent name="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin" />
       <recent name="$PROJECT_DIR$/src/main/webapp/views/v3.6admin/images/travel" />
       <recent name="$PROJECT_DIR$/src/main/webapp/views" />
     </key>
@@ -555,125 +666,14 @@
     <configuration default="false" name="index.jsp (2)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
       <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/index.jsp" />
       <deployment>
-        <artifact name="XST:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="XST:war" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="false" name="index.jsp (3)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/index.jsp" />
-      <deployment>
-        <artifact name="XST:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="XST:war" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="false" name="index.jsp (4)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/index.jsp" />
-      <deployment>
-        <artifact name="XST:war">
-          <settings>
-            <option name="CONTEXT_PATH" value="/" />
-          </settings>
-        </artifact>
-      </deployment>
-      <server-settings />
-      <predefined_log_file id="Tomcat" enabled="true" />
-      <predefined_log_file id="Tomcat Catalina" enabled="true" />
-      <predefined_log_file id="Tomcat Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
-      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
-        <option name="USE_ENV_VARIABLES" value="true" />
-        <STARTUP>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </STARTUP>
-        <SHUTDOWN>
-          <option name="USE_DEFAULT" value="true" />
-          <option name="SCRIPT" value="" />
-          <option name="VM_PARAMETERS" value="" />
-          <option name="PROGRAM_PARAMETERS" value="" />
-        </SHUTDOWN>
-      </ConfigurationWrapper>
-      <method>
-        <option name="BuildArtifacts" enabled="true">
-          <artifact name="XST:war" />
-        </option>
-      </method>
-    </configuration>
-    <configuration default="false" name="index.jsp (5)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/index.jsp" />
-      <deployment>
-        <artifact name="XST:war">
+        <artifact name="XST:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
       <server-settings>
-        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(5)_XST_3" />
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(2)_XST_7" />
       </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
@@ -698,20 +698,22 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="XST:war" />
+          <artifact name="XST:war exploded" />
         </option>
       </method>
     </configuration>
-    <configuration default="false" name="index.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
-      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/index.jsp" />
+    <configuration default="false" name="result.jsp (4)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/result.jsp" />
       <deployment>
-        <artifact name="XST:war">
+        <artifact name="XST:war exploded">
           <settings>
             <option name="CONTEXT_PATH" value="/" />
           </settings>
         </artifact>
       </deployment>
-      <server-settings />
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="result_jsp_(4)_XST_2" />
+      </server-settings>
       <predefined_log_file id="Tomcat" enabled="true" />
       <predefined_log_file id="Tomcat Catalina" enabled="true" />
       <predefined_log_file id="Tomcat Manager" enabled="false" />
@@ -735,7 +737,124 @@
       </ConfigurationWrapper>
       <method>
         <option name="BuildArtifacts" enabled="true">
-          <artifact name="XST:war" />
+          <artifact name="XST:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="result.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/result.jsp" />
+      <deployment>
+        <artifact name="XST:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="result_jsp_XST_7" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="XST:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="index.jsp" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/admin/index.jsp" />
+      <deployment>
+        <artifact name="XST:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_XST_9" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="XST:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <configuration default="false" name="index.jsp (1)" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" temporary="true" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false">
+      <option name="OPEN_IN_BROWSER_URL" value="http://localhost:8080/views/v3.6admin/index.jsp" />
+      <deployment>
+        <artifact name="XST:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="index_jsp_(1)_XST_11" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="XST:war exploded" />
         </option>
       </method>
     </configuration>
@@ -999,20 +1118,93 @@
     <configuration default="true" type="osgi.bnd.run" factoryName="Test Launcher (JUnit)">
       <method />
     </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (2)" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (3)" />
-      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (4)" />
-      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (5)" />
-      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
+    <configuration default="false" name="Unnamed" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 7.0.67" ALTERNATIVE_JRE_ENABLED="false" ALTERNATIVE_JRE_PATH="">
+      <option name="UPDATING_POLICY" value="restart-server" />
+      <deployment>
+        <artifact name="XST:war exploded">
+          <settings>
+            <option name="CONTEXT_PATH" value="/" />
+          </settings>
+        </artifact>
+      </deployment>
+      <server-settings>
+        <option name="BASE_DIRECTORY_NAME" value="Unnamed_XST" />
+      </server-settings>
+      <predefined_log_file id="Tomcat" enabled="true" />
+      <predefined_log_file id="Tomcat Catalina" enabled="true" />
+      <predefined_log_file id="Tomcat Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Host Manager" enabled="false" />
+      <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="40174" />
+      </RunnerSettings>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Cover">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Debug">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <ConfigurationWrapper VM_VAR="JAVA_OPTS" RunnerId="Run">
+        <option name="USE_ENV_VARIABLES" value="true" />
+        <STARTUP>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </STARTUP>
+        <SHUTDOWN>
+          <option name="USE_DEFAULT" value="true" />
+          <option name="SCRIPT" value="" />
+          <option name="VM_PARAMETERS" value="" />
+          <option name="PROGRAM_PARAMETERS" value="" />
+        </SHUTDOWN>
+      </ConfigurationWrapper>
+      <method>
+        <option name="BuildArtifacts" enabled="true">
+          <artifact name="XST:war exploded" />
+        </option>
+      </method>
+    </configuration>
+    <list size="6">
+      <item index="0" class="java.lang.String" itemvalue="Tomcat Server.Unnamed" />
+      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (2)" />
+      <item index="2" class="java.lang.String" itemvalue="Tomcat Server.result.jsp (4)" />
+      <item index="3" class="java.lang.String" itemvalue="Tomcat Server.result.jsp" />
+      <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+      <item index="5" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
     </list>
     <recent_temporary>
       <list size="5">
         <item index="0" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (1)" />
-        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (5)" />
-        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (4)" />
-        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (3)" />
-        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Tomcat Server.index.jsp" />
+        <item index="2" class="java.lang.String" itemvalue="Tomcat Server.result.jsp" />
+        <item index="3" class="java.lang.String" itemvalue="Tomcat Server.index.jsp (2)" />
+        <item index="4" class="java.lang.String" itemvalue="Tomcat Server.result.jsp (4)" />
       </list>
     </recent_temporary>
   </component>
@@ -1034,30 +1226,32 @@
       <workItem from="1459077440821" duration="3249000" />
       <workItem from="1459146519328" duration="14359000" />
       <workItem from="1459233623204" duration="11218000" />
-      <workItem from="1459252625092" duration="67000" />
+      <workItem from="1459252625092" duration="4111000" />
+      <workItem from="1459318311134" duration="16920000" />
+      <workItem from="1459342030973" duration="5201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="62527000" />
+    <option name="totallyTimeSpent" value="88692000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1301" height="744" extended-state="6" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298351" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30884558" sideWeight="0.5057648" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.29985008" sideWeight="0.50883937" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3298351" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.30884558" sideWeight="0.49423522" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2383808" sideWeight="0.49116063" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.264412" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25134513" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
@@ -1094,201 +1288,10 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/ResourcesDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="22" column="36" selection-start-line="22" selection-start-column="36" selection-end-line="22" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/ResourcesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="46" column="34" selection-start-line="46" selection-start-column="34" selection-end-line="46" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/logging.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/IndexController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="13" column="31" selection-start-line="13" selection-start-column="31" selection-end-line="13" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xst/test/controller/ResourcesControllerTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="43" selection-start-line="51" selection-start-column="43" selection-end-line="51" selection-end-column="43" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xst/test/dao/ResourcesDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.2629921">
-          <caret line="36" column="14" selection-start-line="36" selection-start-column="14" selection-end-line="36" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.9433071">
-          <caret line="203" column="10" selection-start-line="203" selection-start-column="10" selection-end-line="203" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/xst/test/dao/MainDaoTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.6598425">
-          <caret line="27" column="18" selection-start-line="27" selection-start-column="18" selection-end-line="27" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/TestController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/hibernate.cfg.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-0.040201005">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/page/PageDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="43" column="14" selection-start-line="43" selection-start-column="14" selection-end-line="43" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/page/PageHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/bean/ResourcesEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="108" column="0" selection-start-line="108" selection-start-column="0" selection-end-line="108" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/ResourcesController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="45" column="0" selection-start-line="45" selection-start-column="0" selection-end-line="45" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/faq.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/sign-in.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/sign-up.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/calendar.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-2.0">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="56" column="49" selection-start-line="56" selection-start-column="49" selection-end-line="56" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="51" column="9" selection-start-line="51" selection-start-column="9" selection-end-line="51" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/js/Chart.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="166" column="50" selection-start-line="166" selection-start-column="50" selection-end-line="166" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/users.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-11.358209">
-          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/user.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-12.208955">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-8.666667">
-          <caret line="332" column="48" selection-start-line="332" selection-start-column="48" selection-end-line="332" selection-end-column="48" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/AdminUserController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="34" column="46" selection-start-line="34" selection-start-column="46" selection-end-line="34" selection-end-column="46" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-latest.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-34.666668">
-          <caret line="216" column="38" selection-start-line="216" selection-start-column="38" selection-end-line="216" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-7.2222223">
-          <caret line="104" column="77" selection-start-line="104" selection-start-column="77" selection-end-line="104" selection-end-column="77" />
         </state>
       </provider>
     </entry>
@@ -1299,20 +1302,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-change.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="106" column="77" selection-start-line="106" selection-start-column="77" selection-end-line="106" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-collection.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-4.6666665">
-          <caret line="107" column="77" selection-start-line="107" selection-start-column="77" selection-end-line="107" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/bean/WebEntity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.33566433">
@@ -1320,31 +1309,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-do.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.26865673">
-          <caret line="107" column="76" selection-start-line="107" selection-start-column="76" selection-end-line="107" selection-end-column="76" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-info.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.58208954">
-          <caret line="106" column="75" selection-start-line="106" selection-start-column="75" selection-end-line="106" selection-end-column="75" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/ResourcesDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="2.3076923">
           <caret line="64" column="45" selection-start-line="64" selection-start-column="45" selection-end-line="64" selection-end-column="45" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-password.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="2.6567163">
-          <caret line="184" column="25" selection-start-line="184" selection-start-column="25" selection-end-line="184" selection-end-column="25" />
         </state>
       </provider>
     </entry>
@@ -1363,90 +1331,10 @@
         <state />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/AdminController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="44" column="49" selection-start-line="44" selection-start-column="49" selection-end-line="44" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/users-change.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="123.333336">
-          <caret line="1" column="0" selection-start-line="1" selection-start-column="0" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-parameter.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="121.111115">
-          <caret line="3" column="64" selection-start-line="3" selection-start-column="64" selection-end-line="3" selection-end-column="64" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/css/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/myqd/special.scss">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-8.0">
           <caret line="42" column="69" selection-start-line="42" selection-start-column="69" selection-end-line="42" selection-end-column="69" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-bug.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="-6.0">
-          <caret line="260" column="51" selection-start-line="260" selection-start-column="51" selection-end-line="260" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="62" selection-start-line="37" selection-start-column="62" selection-end-line="37" selection-end-column="62" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/AdminDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/MainDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/BaseDao.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="32" column="28" selection-start-line="32" selection-start-column="28" selection-end-line="32" selection-end-column="28" />
-          <folding>
-            <element signature="e#361#362#0" expanded="true" />
-            <element signature="e#404#405#0" expanded="true" />
-            <element signature="e#487#488#0" expanded="true" />
-            <element signature="e#540#541#0" expanded="true" />
-            <element signature="e#834#835#0" expanded="true" />
-            <element signature="e#868#869#0" expanded="true" />
-            <element signature="e#956#957#0" expanded="true" />
-            <element signature="e#996#997#0" expanded="true" />
-            <element signature="e#1120#1121#0" expanded="true" />
-            <element signature="e#1166#1167#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1458,15 +1346,344 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/BaseDao.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="1604" column="77" selection-start-line="1604" selection-start-column="77" selection-end-line="1604" selection-end-column="77" />
+          <caret line="35" column="34" selection-start-line="35" selection-start-column="34" selection-end-line="35" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/MainDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="29" column="29" selection-start-line="29" selection-start-column="29" selection-end-line="29" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/dao/AdminDao.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="20" column="47" selection-start-line="20" selection-start-column="47" selection-end-line="20" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.046875">
+          <caret line="138" column="30" selection-start-line="138" selection-start-column="30" selection-end-line="138" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/calendar.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="77.77778">
+          <caret line="98" column="133" selection-start-line="98" selection-start-column="133" selection-end-line="98" selection-end-column="133" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/faq.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.05">
+          <caret line="12" column="95" selection-start-line="12" selection-start-column="94" selection-end-line="12" selection-end-column="95" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/css/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/css/users-change.css.map">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="sourcemapFileViewerProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/stylesheets/theme.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.63316584">
+          <caret line="501" column="28" selection-start-line="501" selection-start-column="28" selection-end-line="501" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/css/users-change.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="10" column="46" selection-start-line="10" selection-start-column="46" selection-end-line="10" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/AdminUserController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="35" column="5" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/AdminController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="40" column="68" selection-start-line="40" selection-start-column="68" selection-end-line="40" selection-end-column="68" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/ResourcesController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/sign-in.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.6666665">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/sign-up.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="79.333336">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/user.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="185.33333">
+          <caret line="7" column="50" selection-start-line="7" selection-start-column="49" selection-end-line="7" selection-end-column="50" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/users.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="147.33333">
+          <caret line="13" column="69" selection-start-line="13" selection-start-column="69" selection-end-line="13" selection-end-column="69" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/users-change.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.0">
+          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-bug.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-7.3333335">
+          <caret line="105" column="21" selection-start-line="105" selection-start-column="21" selection-end-line="105" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-latest.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-10.666667">
+          <caret line="103" column="21" selection-start-line="103" selection-start-column="21" selection-end-line="103" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-change.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-70.666664">
+          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-collection.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.6666667">
+          <caret line="107" column="21" selection-start-line="107" selection-start-column="21" selection-end-line="107" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-do.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="18.0">
+          <caret line="218" column="32" selection-start-line="218" selection-start-column="32" selection-end-line="218" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-info.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-64.666664">
+          <caret line="106" column="21" selection-start-line="103" selection-start-column="11" selection-end-line="106" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/user/user-password.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-1.5441177">
+          <caret line="103" column="32" selection-start-line="103" selection-start-column="32" selection-end-line="103" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/web-parameter.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.0">
+          <caret line="108" column="21" selection-start-line="108" selection-start-column="21" selection-end-line="108" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/spring.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-36.580647">
+          <caret line="63" column="0" selection-start-line="63" selection-start-column="0" selection-end-line="63" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/fonts/fontawesome-webfont.ttf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+      <provider editor-type-id="com.intellij.database.editor.CsvTableFileEditorProvider">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/fonts/glyphicons-halflings-regular.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.62376237">
+          <caret line="14" column="70" selection-start-line="14" selection-start-column="70" selection-end-line="14" selection-end-column="70" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/fonts/fontawesome-webfont.svg">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-0.58064514">
+          <caret line="13" column="45" selection-start-line="13" selection-start-column="45" selection-end-line="13" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/fonts/fontawesome-webfont.eot">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/fonts/FontAwesome.otf">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.3310345">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/conf/springmvc.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7326733">
+          <caret line="50" column="0" selection-start-line="50" selection-start-column="0" selection-end-line="50" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/font-awesome.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49655172">
+          <caret line="18" column="22" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/result.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33333334">
+          <caret line="529" column="28" selection-start-line="529" selection-start-column="25" selection-end-line="529" selection-end-column="28" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/myqd/result.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="11" column="1" selection-start-line="11" selection-start-column="1" selection-end-line="11" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/css/myqd/result.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="44" column="32" selection-start-line="44" selection-start-column="32" selection-end-line="44" selection-end-column="32" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/js/Chart.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="167" column="73" selection-start-line="167" selection-start-column="73" selection-end-line="167" selection-end-column="74" />
           <folding>
-            <marker date="1459244687384" expanded="false" signature="3350:3402" placeholder="..." />
-            <marker date="1459244687384" expanded="true" signature="3403:3828" placeholder="..." />
-            <marker date="1459244687384" expanded="true" signature="3522:3817" placeholder="..." />
-            <marker date="1459244687384" expanded="true" signature="3639:3804" placeholder="..." />
+            <marker date="1459078812008" expanded="true" signature="73249:73292" placeholder="..." />
+            <marker date="1459078812008" expanded="true" signature="83325:83368" placeholder="..." />
+            <marker date="1459078812008" expanded="true" signature="90135:90180" placeholder="..." />
+            <marker date="1459078812008" expanded="true" signature="102256:102299" placeholder="..." />
+            <marker date="1459078812008" expanded="true" signature="110152:110197" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-2.7666667">
+          <caret line="502" column="20" selection-start-line="502" selection-start-column="20" selection-end-line="502" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/xst/controller/MainController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/views/v3.6admin/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.30769232">
+          <caret line="138" column="112" selection-start-line="138" selection-start-column="112" selection-end-line="138" selection-end-column="112" />
+          <folding>
+            <marker date="1459348255602" expanded="false" signature="3350:3402" placeholder="..." />
+            <marker date="1459348255602" expanded="true" signature="3403:3828" placeholder="..." />
+            <marker date="1459348255602" expanded="true" signature="3522:3817" placeholder="..." />
+            <marker date="1459348255602" expanded="true" signature="3639:3804" placeholder="..." />
           </folding>
         </state>
       </provider>

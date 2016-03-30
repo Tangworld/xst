@@ -97,6 +97,10 @@
 
     <div class="navbar-collapse collapse" style="height: 1px;">
         <ul id="main-menu" class="nav navbar-nav navbar-right">
+            <li><a id="returnhome" href="javascript:void(0)" onclick="openLogin()">主页</a></li>
+            <script>
+                $("#returnhome").attr("onclick","window.location.href='/views/v3.6admin/index.jsp'");
+            </script>
             <li class="dropdown hidden-xs">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <span class="glyphicon glyphicon-user padding-right-small"

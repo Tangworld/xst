@@ -33,10 +33,7 @@ public class BaseDao {
 	 * @param object 需要保存的对象
 	 */
 	public void save(Object object){
-		Session session = getSession();
-		Transaction tran = session.beginTransaction();//开始事务
-		session.save(object);
-		tran.commit();
+		getSession().save(object);
 	}
 	
 	/**

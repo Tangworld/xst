@@ -61,7 +61,8 @@
     <!--特殊result.css    end-->
 
     <!--图标库         -------->
-    <link rel="stylesheet" href="/views/v3.6admin/css/myqd/font-awesome.css"/>
+    <link rel="stylesheet" href="//cdn.bootcss.com/font-awesome/4.5.0/css/font-awesome.css">
+    <%--<link rel="stylesheet" href="/views/v3.6admin/css/myqd/font-awesome.css"/>--%>
     <!--图标库             end-->
 
 
@@ -112,8 +113,8 @@
                         <div class="col-md-4" style="padding-top: 10px">
                             <nav>
                                 <ul>
-                                    <li><a href="index.jsp" >主页</a></li>
-                                    <li><a href="javascript:void(0)" onclick="openLogin()">登录</a></li>
+                                    <li><a id="returnhome" href="javascript:void(0)" onclick="openLogin()">主页</a></li>
+                                    <li><a id="gotoadmin" href="javascript:void(0)" onclick="openLogin()">${user}</a></li>
                                     <!--<li><a href="#" onclick="window.location.href='regist.jsp'">注册</a></li>-->
                                     <li><a href="javascript:void(0)" onclick="openRegister()">注册</a></li>
                                 </ul>
@@ -123,7 +124,10 @@
                 </div>
 
             </div>
-
+            <script>
+                $("#returnhome").attr("onclick","window.location.href='/views/v3.6admin/index.jsp'");
+                $("#gotoadmin").attr("onclick","window.location.href='/views/v3.6admin/user/user-info.jsp'");
+            </script>
             <!--弹出式登录框-->
             <div class="modal-dialog" id="login">
                 <div class="modal-content">
@@ -241,7 +245,7 @@
                                     <div class="col-md-4">
                                         <input type="text" class="form-control" id="inputTest3" name="start" value="${startcity}" placeholder="出发地">
                                     </div>
-                                    <span class="col-md-1"><strong class="fa fa-long-arrow-right fa-3x"></strong></span>
+                                    <span class="col-md-1"><strong class="fa fa-long-arrow-right fa-3x" style="margin-left: -7px;color: grey;"></strong></span>
                                     <div class="col-md-4">
                                         <input type="text" class="form-control" id="inputTest4" name="end" value="${endcity}" placeholder="目的地">
                                     </div>
@@ -257,7 +261,7 @@
                                 <div class="col-md-4">
                                     <input type="text" class="form-control" id="price-min" name="min" placeholder="最低价">
                                 </div>
-                                <span class="col-md-1"><strong class="fa fa-long-arrow-right fa-3x"></strong></span>
+                                <span class="col-md-1"><strong class="fa fa-minus fa-2x" style="line-height: 40px;color: grey;"></strong></span>
                                 <div class="col-md-4">
                                     <input type="email" class="form-control" id="price-max" name="max" placeholder="最高价">
                                 </div>

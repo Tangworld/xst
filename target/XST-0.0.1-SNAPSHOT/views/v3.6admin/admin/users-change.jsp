@@ -102,10 +102,14 @@
 
     <div class="navbar-collapse collapse" style="height: 1px;">
         <ul id="main-menu" class="nav navbar-nav navbar-right">
+            <li><a id="returnhome" href="javascript:void(0)" onclick="openLogin()">主页</a></li>
+            <script>
+                $("#returnhome").attr("onclick","window.location.href='/views/v3.6admin/index.jsp'");
+            </script>
             <li class="dropdown hidden-xs">
                 <a href="#" class="dropdown-toggle" data-toggle="dropdown">
                     <span class="glyphicon glyphicon-user padding-right-small"
-                          style="position:relative;top: 3px;"></span> xuzhao***.com
+                          style="position:relative;top: 3px;"></span> ${user}
                     <i class="fa fa-caret-down"></i>
                 </a>
 
@@ -174,11 +178,12 @@
     <div class="main-content">
 
         <div class="btn-toolbar list-toolbar">
-            <form action="${pageContext.request.contextPath}/user/queryall" method="post"><input class="btn btn-primary" type="submit" value="更新"></form><br>
+
             <%--<button class="btn btn-primary"><i class="fa fa-plus"></i>  添加用户</button>--%>
 
             <button class="btn btn-default">导入</button>
             <button class="btn btn-default">导出</button>
+                <form action="${pageContext.request.contextPath}/user/queryall" method="post" style="display:inline-block"><input class="btn btn-primary" type="submit" value="更新" ></form><br>
             <div class="btn-group">
             </div>
         </div>
@@ -202,10 +207,10 @@
                 <td>
                     <form action="${pageContext.request.contextPath}/user/set" method="post">
                         <input type="hidden" name="setauth" value="${u.userName}">
-                        <input type="submit" class="competence" value="修改权限">
+                        <input type="submit" class="btn btn-primary"  value="修改权限">
                     </form>
                     <%--<a href="#Competence-Modal" class="competence" data-toggle="modal">修改权限</a>--%>
-                    <a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>
+                    <%--<a href="#myModal" role="button" data-toggle="modal"><i class="fa fa-trash-o"></i></a>--%>
                 </td>
             </tr>
             </c:forEach>

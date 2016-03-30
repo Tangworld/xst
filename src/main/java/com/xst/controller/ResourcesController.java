@@ -45,4 +45,6 @@ public class ResourcesController {
         return "v3.6admin/result";
     }
 
+
+
 }
