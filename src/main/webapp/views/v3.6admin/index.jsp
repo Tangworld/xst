@@ -650,7 +650,7 @@
                                                     <p>
 
                                                     <div class="message">
-                                                        <strong><海南三亚5日游>8万点赞，精选4晚180海景，0购物玩海8H，奔跑吧牛人</strong></div>
+                                                        <strong><海南三亚5日游>8万点赞，精选4晚180海景，0购物玩海8H...</strong></div>
                                                     <div class="price">￥2688起</div>
                                                     </p>
                                                 </div>
@@ -662,7 +662,7 @@
 
                                                     <p>
 
-                                                    <div class="message"><strong><丽江-香格里拉-大理双廊6日游>牛人私家团，醉美普达措，双廊海景客栈，4人立减...</strong></div>
+                                                    <div class="message"><strong><丽江-香格里拉-大理双廊6日游>牛人私家团，醉美普达措...</strong></div>
                                                     <div class="price">￥3899起</div>
                                                     </p>
                                                 </div>
@@ -744,7 +744,7 @@
 
                                                     <p>
 
-                                                    <div class="message"><strong><青海湖-嘉峪关-敦煌-张掖双飞8日游>告别卧铺或长途车，兰新高铁，6晚4星，5月</strong></div>
+                                                    <div class="message"><strong><青海湖-嘉峪关-敦煌-张掖双飞8日游>告别卧铺或长途车...</strong></div>
                                                     <div class="price">￥5050起</div>
                                                     </p>
                                                 </div>
@@ -756,7 +756,7 @@
 
                                                     <p>
 
-                                                    <div class="message"><strong><天山-喀纳斯-伊犁-巴音布鲁克双飞11日游>南北疆大环游，不走回头路，全景之旅</strong></div>
+                                                    <div class="message"><strong><天山-喀纳斯-伊犁-巴音布鲁克双飞11日游>南北疆大环游...</strong></div>
                                                     <div class="price">￥6301起</div>
                                                     </p>
                                                 </div>
@@ -814,7 +814,7 @@
                                                     <p>
 
                                                     <div class="message">
-                                                        <strong><海南三亚5日游>8万点赞，精选4晚180海景，0购物玩海8H，奔跑吧牛人</strong></div>
+                                                        <strong><海南三亚5日游>8万点赞，精选4晚180海景，0购物玩海8H...</strong></div>
                                                     <div class="price">￥2688起</div>
                                                     </p>
                                                 </div>
@@ -826,7 +826,7 @@
 
                                                     <p>
 
-                                                    <div class="message"><strong><厦门-鼓浪屿双飞4日游>半自助，2人减200，1晚鼓浪屿，含4大景点，赠单车骑行</strong></div>
+                                                    <div class="message"><strong><厦门-鼓浪屿双飞4日游>半自助，2人减200，1晚鼓浪屿...</strong></div>
                                                     <div class="price">￥1328起</div>
                                                     </p>
                                                 </div>
@@ -921,7 +921,7 @@
                                                     <p>
 
                                                     <div class="message"><strong><天安门-故宫-颐和园-鸟巢水立方1日游>地道老北京海碗居炸酱面</strong></div>
-                                                    <div class="price">￥88起</div>
+                                                    <div class="price">￥214起</div>
                                                     </p>
                                                 </div>
                                             </div>
@@ -1116,7 +1116,7 @@
 
                                                     <p>
 
-                                                    <div class="message"><strong><澳大利亚大堡礁墨尔本10日游>升级二晚五星，摩尔外堡礁，墨尔本大洋路，天堂农</strong></div>
+                                                    <div class="message"><strong><澳大利亚大堡礁墨尔本10日游>升级二晚五星，摩尔外堡礁...</strong></div>
                                                     <div class="price">￥13699起</div>
                                                     </p>
                                                 </div>
@@ -1128,7 +1128,7 @@
 
                                                     <p>
 
-                                                    <div class="message"><strong><新西兰-南北岛-塔斯曼冰河奇幻之旅12日游>纯玩，库克山国家公园入内，减1500...</strong></div>
+                                                    <div class="message"><strong><新西兰-南北岛-塔斯曼冰河奇幻之旅12日游>纯玩，库克山国家...</strong></div>
                                                     <div class="price">￥22499起</div>
                                                     </p>
                                                 </div>
@@ -1186,7 +1186,7 @@
                                                     <p>
 
                                                     <div class="message">
-                                                        <strong>日本北海道+大阪+京都+箱根+东京7日6晚跟团游(4钻)·冰雪乐园 海鲜火锅 温泉...</strong></div>
+                                                        <strong>日本北海道+大阪+京都+箱根+东京7日6晚跟团游(4钻)·冰雪乐园...</strong></div>
                                                     <div class="price">￥8890起</div>
                                                     </p>
                                                 </div>
@@ -1280,7 +1280,7 @@
 
                                                     <p>
 
-                                                    <div class="message"><strong><美东西-黄石公园14-16日游>全含，三大公园，赠西峡，住拉斯大道</strong></div>
+                                                    <div class="message"><strong><美东西-黄石公园14-16日游>全含，三大公园，赠西峡...</strong></div>
                                                     <div class="price">￥23699起</div>
                                                     </p>
                                                 </div>
@@ -1292,7 +1292,7 @@
 
                                                     <p>
 
-                                                    <div class="message"><strong><当桑巴舞遇上探戈秀巴西-阿根廷16日游>巴西探秘亚马逊雨林，阿根廷大冰川火地岛...</strong></div>
+                                                    <div class="message"><strong><当桑巴舞遇上探戈秀巴西-阿根廷16日游>巴西探秘亚马逊...</strong></div>
                                                     <div class="price">￥42099起</div>
                                                     </p>
                                                 </div>
@@ -1362,7 +1362,7 @@
 
                                                     <p>
 
-                                                    <div class="message"><strong><巴厘岛6日游>蓝梦岛出海，独栋别墅，拉古娜下午茶，纯玩，减300</strong></div>
+                                                    <div class="message"><strong><巴厘岛6日游>蓝梦岛出海，独栋别墅，拉古娜下午茶...</strong></div>
                                                     <div class="price">￥5430起</div>
                                                     </p>
                                                 </div>
@@ -1374,7 +1374,7 @@
 
                                                     <p>
 
-                                                    <div class="message"><strong><迪拜-阿布扎比4晚5日游>全程五星住宿，阿布扎比升级国五，登迪拜塔观光，水族馆...</strong></div>
+                                                    <div class="message"><strong><迪拜-阿布扎比4晚5日游>全程五星住宿，阿布扎比升级国五...</strong></div>
                                                     <div class="price">￥6999起</div>
                                                     </p>
                                                 </div>

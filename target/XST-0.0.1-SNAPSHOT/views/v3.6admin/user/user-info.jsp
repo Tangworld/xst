@@ -165,12 +165,12 @@
                 <div><img src="images/cloud.ico" alt=""/></div>
             </div>
             <div class="user-info col-md-4">
-                    <div><span>用户名:</span><span>zhangsan</span></div>
-                    <div><span>昵&nbsp;&nbsp;&nbsp;&nbsp;称:</span><span>gaowu9595</span></div>
+                    <div><span>用户名:</span><span>testUser</span></div>
+                    <div><span>昵&nbsp;&nbsp;&nbsp;&nbsp;称:</span><span>testUser</span></div>
                     <div><span>性&nbsp;&nbsp;&nbsp;&nbsp;别:</span>
                         <span>男</span>
                     </div>
-                    <div><span>邮&nbsp;&nbsp;&nbsp;&nbsp;箱:</span><span>zhangsan@163.com</span></div>
+                    <div><span>邮&nbsp;&nbsp;&nbsp;&nbsp;箱:</span><span>testUser@163.com</span></div>
                     <div><span>手机号码:</span><span>18351967235</span></div>
                     <div class="clearfix"></div>
             </div>

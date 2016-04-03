@@ -357,17 +357,17 @@
                                     <div class="flex-6">
                                         <a  href="${m.url}" type="button" class="btn btn-warning">前往</a>
                                     </div>
-                                    <div class="flex-6 flex-col">
-                                        <div class="flex-6 good">
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star"></i>
-                                            <i class="fa fa-star-half-empty"></i>
-                                            <span>${m.grade}分</span>
-                                        </div>
-                                        <div class="flex-6 buyed">300人已点评</div>
-                                    </div>
+                                    <%--<div class="flex-6 flex-col">--%>
+                                        <%--&lt;%&ndash;<div class="flex-6 good">&ndash;%&gt;--%>
+                                            <%--&lt;%&ndash;<i class="fa fa-star"></i>&ndash;%&gt;--%>
+                                            <%--&lt;%&ndash;<i class="fa fa-star"></i>&ndash;%&gt;--%>
+                                            <%--&lt;%&ndash;<i class="fa fa-star"></i>&ndash;%&gt;--%>
+                                            <%--&lt;%&ndash;<i class="fa fa-star"></i>&ndash;%&gt;--%>
+                                            <%--&lt;%&ndash;<i class="fa fa-star-half-empty"></i>&ndash;%&gt;--%>
+                                            <%--&lt;%&ndash;<span>${m.grade}分</span>&ndash;%&gt;--%>
+                                        <%--&lt;%&ndash;</div>&ndash;%&gt;--%>
+                                        <%--&lt;%&ndash;<div class="flex-6 buyed">300人已点评</div>&ndash;%&gt;--%>
+                                    <%--</div>--%>
 
                                 </div>
                             </div>
